@@ -1,0 +1,5 @@
+/* src/assets/styles/global.css */
+
+:root {
+    --transition-all: all 0.3s ease-in-out;
+}
