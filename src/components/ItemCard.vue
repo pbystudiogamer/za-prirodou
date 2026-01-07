@@ -84,4 +84,7 @@ export default {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.tile {
+  background-color: #7b8f3b;
+}
 </style>
