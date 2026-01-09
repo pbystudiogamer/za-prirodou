@@ -8,19 +8,43 @@
         </v-col>
       </v-row>
 
-    <v-row class="index-text" justify="center" no-gutters>
-      <div class="text-center">
-       Tak tady na tomhle místě budou jednou kontakty.<br>
-        Hlavně teda na mě, protože já ten web dělal...<br>
-        A následně i na Nikču...<br>
-        A jestli zbude místo, tak i na Deflectora no...<br>
-      </div>
-    </v-row>
+      <v-row class="index-text" justify="center" no-gutters>
+        <div class="text-center">
+         Máte dotaz, tip na trasu nebo zájem o spolupráci?
+          <br>
+          Kontaktujte nás prostřednictvím e-mailu, formuláře nebo na našich sociálních sítích. Jsme tu pro vás!
+        </div>
+      </v-row>
+
+      <v-row justify="center" no-gutters class="index-text">
+        <div class="socials">
+          <v-btn
+              v-for="i in socialLinks"
+              :key="i.icon"
+              :icon="i.icon"
+              variant="text"
+              size="x-large"
+              :href="i.href"
+              target="_blank"
+          />
+        </div>
+      </v-row>
     </v-container>
 </template>
 
 <script>
-
+export default {
+  data() {
+    return {
+      socialLinks: [
+        { icon: 'mdi-email', href: 'mailto:DeflectorCZ@gmail.com', target: '_blank', rel: 'noopener noreferrer'},
+        { icon: 'mdi-facebook', href: 'https://www.facebook.com/groups/deflectoraprochazkari', target: '_blank', rel: 'noopener noreferrer'},
+        { icon: 'mdi-instagram', href: 'https://www.instagram.com/deflector_bushcraft', target: '_blank', rel: 'noopener noreferrer' },
+        { icon: 'mdi-youtube', href: 'https://www.youtube.com/c/DeflectorBushcraft', target: '_blank', rel: 'noopener noreferrer' }
+      ],
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -29,5 +53,15 @@
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 100px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.v-btn {
+  font-size: 40px;
 }
 </style>

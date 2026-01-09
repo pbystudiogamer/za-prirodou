@@ -1,10 +1,17 @@
 <template>
     <v-container>
-      <v-row justify="center" style="margin-bottom: 50px">
+      <v-row justify="center" style="margin-bottom: 20px">
         <v-col cols="12">
           <h4 class="text-center">
             Jaká je moje výbava a co mám na sobě při výsadcích
           </h4>
+        </v-col>
+      </v-row>
+      <v-row justify="center" style="margin-bottom: 50px">
+        <v-col cols="7">
+          <div class="text-center">
+            protože správné vybavení je klíčem k pohodlnému a bezpečnému pobytu v přírodě. Najdete zde doporučení na osvědčené nástroje, oblečení a doplňky pro bushcraft, vandry i treky.
+          </div>
         </v-col>
       </v-row>
 
