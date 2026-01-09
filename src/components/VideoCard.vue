@@ -5,7 +5,7 @@
         <v-icon size="44">mdi-play-circle</v-icon>
       </div>
     </v-img>
-    <v-card-title class="text-h6">{{ title }}</v-card-title>
+    <v-card-title>{{ title }}</v-card-title>
 
     <v-card-text class="desc">
       {{ description }}
@@ -62,9 +62,8 @@ export default {
 }
 
 .v-card-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.25;
-  display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
