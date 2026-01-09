@@ -25,6 +25,11 @@ h4 {
     font-size: 28px;
 }
 
+h5 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+
 body {
     color: #1a1a1a !important;
 }

@@ -71,7 +71,7 @@ import FooterSection from "@/components/Footer.vue";
 }
 
 .main-content{
-  margin-top: 500px;      /* výška headeru */
+  margin-top: 450px;      /* výška headeru */
   margin-bottom: 80px;    /* výška footeru */
   height: calc(100vh - 200px);
 }
