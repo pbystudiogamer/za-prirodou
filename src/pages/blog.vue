@@ -7,6 +7,13 @@
         </h4>
       </v-col>
     </v-row>
+    <v-row class="index-text" justify="center" no-gutters>
+      <div class="text-center">
+        Tipy, zkušenosti a inspirace ze světa bushcraftu a outdooru.
+        <br>
+        Články o technikách, vybavení i příbězích z cest, které vás přiblíží k přírodě.
+      </div>
+    </v-row>
   </v-container>
 </template>
 
