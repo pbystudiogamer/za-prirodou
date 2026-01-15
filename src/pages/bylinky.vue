@@ -103,6 +103,7 @@ export default {
               ],
             }
           ],
+          videoTitle: 'Video s povídáním',
           videoLink: 'https://www.youtube.com/watch?v=wF0udsoPKWk',
         }
       ]

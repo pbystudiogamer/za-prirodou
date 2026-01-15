@@ -62,7 +62,7 @@
 
         <div v-if="videoLink" class="section-desc">
           <v-row justify="center">
-            <h4>Video s povídáním </h4>
+            <h4>{{videoTitle}}</h4>
           </v-row>
           <v-row justify="center">
             <v-col cols="12" md="4" class="d-flex justify-center">
@@ -95,6 +95,7 @@ export default {
     basicInformation: { type: String, default: '' },
     fullInformation: { type: String, default: '' },
     videoLink: { type: String, default: '' },
+    videoTitle: { type: String, default: '' },
   },
   computed: {
     youtubeId() {
