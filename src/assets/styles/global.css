@@ -3,17 +3,18 @@
 :root {
     --transition-all: all 0.3s ease-in-out;
 }
-h1 {
+h1{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 60px !important;
+    font-size: clamp(16px, 5vw, min(60px, 8vh)); /* UPRAVENO */
     color: #593b15;
 }
-h2 {
+
+h2{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 48px !important;
-    color: #593b15
+    font-size: clamp(14px, 4vw, min(48px, 8vh));  /* UPRAVENO */
+    color: #593b15;
 }
 h3 {
     font-family: 'Josefin Sans', sans-serif;

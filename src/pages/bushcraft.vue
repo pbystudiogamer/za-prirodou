@@ -1,7 +1,7 @@
 <template>
-  <v-container style="width: 75%;">
+  <v-container style="">
     <v-row justify="center" style="margin-bottom: 50px" >
-      <v-col cols="12">
+      <v-col cols="12" >
         <h4 class="text-center" style="margin-bottom: 50px">
           Bushcraft
         </h4>
@@ -14,10 +14,10 @@
           Bushcraft je pojem, který označuje soubor dovedností a znalostí potřebných k přežití a pohodlnému <b>dlouhodobějšímu</b> životu v přírodě s využitím <b>přírodních zdrojů.</b>
 
         </div>
-        <v-divider style="margin-bottom: 25px"/>
+        <v-divider style="margin-bottom: 25px; margin-left: -150px"/>
         <div
             v-for="(item, index) in items"
-            style="margin-bottom: 25px; margin-left: 200px">
+            style="margin-bottom: 25px;">
             <h5 style="margin-left: 150px; margin-bottom: 20px">{{index+1}}. {{item.title}}</h5>
             <ul style="margin-bottom: 25px">
               <v-row
@@ -29,7 +29,7 @@
           <v-divider style="margin-bottom: 25px; margin-left: -200px"/>
         </div>
 
-        <v-row>
+        <v-row style="margin-top: 120px;">
           <v-col
               v-for="item in videos"
               cols="12"
@@ -134,5 +134,7 @@ export default {
 </script>
 
 <style scoped>
-
+.v-container {
+  width: 80%;
+}
 </style>

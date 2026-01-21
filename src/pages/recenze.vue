@@ -24,7 +24,7 @@
 
 <script>
 import HerbCard from "@/components/HerbCard.vue";
-import jaternikImage from "@/assets/jaternik_trojlalocny.jpg";
+import flashLightImage from "@/assets/Fenix_HL45R.jpg";
 
 export default {
   components: {
@@ -34,9 +34,9 @@ export default {
     return {
       items: [
         {
-          image: jaternikImage,
-          title: 'Fenix HL45R - praktický test v terénu ',
-          latinTitle: '',
+          image: flashLightImage,
+          title: 'Fenix HL45R ',
+          latinTitle: 'praktický test v terénu',
           description: '',
           basicInformation: 'Čelovka <b>*Fenix HL45R*</b> patří mezi kompaktní, ale velmi výkonné modely s maximálním výkonem 1000 lumenů a možností plynulého zaostření světelného kuželu. V krátké recenzi a terénním testu ukazuji její reálné chování v přírodě, přepínání režimů, dosvit i práci s fokusem. Součástí je také zhodnocení ovládání, výdrže a celkové praktičnosti pro outdoor, bushcraft i běžné použití.',
           fullInformation: [

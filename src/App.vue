@@ -22,7 +22,6 @@
     <div class="app-footer">
       <FooterSection />
     </div>
-
   </v-app>
 </template>
 
@@ -49,9 +48,16 @@ import FooterSection from "@/components/Footer.vue";
 
 /* šířka sloupce + centrování */
 .content-container {
-  max-width: 70%; /* uprav podle potřeby */
+  max-width: 60%; /* uprav podle potřeby */
   margin: 0 auto;
 }
+@media(max-width: 1024px) {
+  .content-container {
+    max-width: 80%; /* uprav podle potřeby */
+    margin: 0 auto;
+  }
+}
+
 
 .app-header{
   position: fixed;
@@ -73,14 +79,28 @@ import FooterSection from "@/components/Footer.vue";
 .main-content{
   margin-top: 450px;      /* výška headeru */
   margin-bottom: 80px;    /* výška footeru */
-  height: calc(100vh - 200px);
+}
+
+@media (max-width: 1264px) {
+  .main-content{
+    margin-top: 400px;
+  }
+}
+@media (max-width: 960px) {
+  .main-content{
+    margin-top: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .main-content{
+    margin-top: 300px;
+  }
 }
 
 .scroll-area{
   height: 100%;
   overflow-y: auto;
 }
-
 
 .slide-enter-active,
 .slide-leave-active {
@@ -106,4 +126,5 @@ import FooterSection from "@/components/Footer.vue";
 .fade-leave-to {
   opacity: 0;
 }
+
 </style>
