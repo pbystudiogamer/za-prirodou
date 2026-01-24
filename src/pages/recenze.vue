@@ -13,7 +13,7 @@
           v-for="item in items"
           :key="item.id"
           cols="12"
-          md="4"
+          md="12"
           class="d-flex justify-center"
       >
         <HerbCard v-bind="item" />

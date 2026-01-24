@@ -6,14 +6,14 @@
 h1{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: clamp(16px, 5vw, min(60px, 8vh)); /* UPRAVENO */
+    font-size: clamp(16px, 5vw, min(60px, 8vh));
     color: #593b15;
 }
 
 h2{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: clamp(14px, 4vw, min(48px, 8vh));  /* UPRAVENO */
+    font-size: clamp(14px, 4vw, min(48px, 8vh));
     color: #593b15;
 }
 h3 {

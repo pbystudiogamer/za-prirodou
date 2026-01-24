@@ -45,7 +45,7 @@
     <div class="banner-overlay"></div>
 
     <div class="banner-content">
-      <v-row justify="center" class="h-100">
+      <v-row justify="center" align-content="space-evenly" class="h-100">
         <v-col
             cols="8"
             sm="8"
@@ -55,7 +55,7 @@
         >
           <div class="banner-title">
             <h1>Deflector Bushcraft</h1>
-            <h2>Výsadky & Outdoor</h2>
+            <h2>Trek & Outdoor</h2>
           </div>
         </v-col>
       </v-row>
@@ -111,7 +111,7 @@
 </template>
 
 <script>
-import banner from '@/assets/banner.jpg';
+import banner from '@/assets/banner.png';
 import { ref } from "vue";
 
 

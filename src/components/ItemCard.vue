@@ -3,17 +3,11 @@
 <template>
     <v-card class="tile" rounded="xl" width="340"  elevation="6" @click="open" role="link" tabindex="0" @keyup.enter="open">
       <v-img :src="image" height="220" cover class="tile-img">
-        <v-btn
-            icon="mdi-heart-outline"
-            variant="text"
-            class="fav"
-            @click.stop
-        />
       </v-img>
 
-      <v-card-title class="pt-4 text-h6">{{ title }}</v-card-title>
+      <v-card-title class="pt-2 text-h6 title">{{ title }}</v-card-title>
 
-      <v-card-subtitle class="pb-0">
+      <v-card-subtitle class="pb-0" v-if="location" >
         <v-icon size="16" class="me-1">mdi-map-marker</v-icon>
         {{ location }}
       </v-card-subtitle>
@@ -83,6 +77,7 @@ export default {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .tile {
   background-color: #7b8f3b;

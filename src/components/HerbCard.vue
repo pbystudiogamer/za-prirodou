@@ -93,7 +93,7 @@ export default {
     latinTitle: { type: String, default: '' },
     description: { type: String, default: '' },
     basicInformation: { type: String, default: '' },
-    fullInformation: { type: String, default: '' },
+    fullInformation: { type: Object, default: '' },
     videoLink: { type: String, default: '' },
     videoTitle: { type: String, default: '' },
   },

@@ -46,38 +46,38 @@ export default {
           id: 1,
           image: lighter,
           title: 'Zapalovač plynový Claw Gear Mk.II Storm - coyote',
-          location: 'U mě v kapse',
+          //location: 'U mě v kapse',
           description: 'Kvalitní kapesní zapalovač Storm MK.II od rakousko-švýcarské značky Claw Gear. Hořák je odolný proti větru, takže se ve zhoršených povětrnostních podmínkách nemusíte stresovat s neustále zhasínajícím plamenem. Kromě toho můžete plamen přesně nasměrovat tam, kde ho zrovna potřebujete. Výkon hořáku je nastavitelný až do 1300°C.',
           href: 'https://armik.cz/zapalovac-plynovy-claw-gear-mk-ii-storm-coyote/',
-          chips: [
+          /*chips: [
             { icon: 'mdi-walk', text: '216 km' },
             { icon: 'mdi-arm-flex', text: 'Schwer' },
             { icon: 'mdi-chart-line', text: '4.850 m' },
-          ],
+          ],*/
         },
         {
           id: 2,
           image: fireplace,
           title: 'Vyvýšené ohniště',
-          location: 'kdesi na aliexpress',
+          //location: 'kdesi na aliexpress',
           description: 'Vysoce kvalitní vyvýšené ohniště pro každou příležitost. Dopřejte si s přáteli pohodu a klid...',
           href: 'https://www.aliexpress.com/item/1005005996690893.html',
-          chips: [
+          /*chips: [
             { icon: 'mdi-walk', text: '216 km' },
             { icon: 'mdi-arm-flex', text: 'Schwer' },
             { icon: 'mdi-chart-line', text: '4.850 m' },
-          ],
+          ],*/
         },
         {
           id: 3,
           image: plate,
           title: 'Dřevěný talíř',
-          location: 'Na dně mojeho batohu',
+          //location: 'Na dně mojeho batohu',
           description: 'Umělohmotný a přírodně zbarvený talíř, který udrží vaše jídlo na jednom místě.',
           href: 'https://bit.ly/3WRGM2I',
-          chips: [
+          /*chips: [
             { icon: 'mdi-walk', text: '216 km' }
-          ],
+          ],*/
         }
       ]
     }
