@@ -9,6 +9,8 @@ import App from './App.vue'
 // Composables
 import { createApp } from 'vue'
 
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+
 const app = createApp(App)
 
 registerPlugins(app)

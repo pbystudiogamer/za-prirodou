@@ -1,5 +1,5 @@
 <template>
-  <v-card class="tile" rounded="xl" width="340" elevation="6" @click="open" role="link" tabindex="0" @keyup.enter="open">
+  <v-card class="tile" rounded="xl" width="380" elevation="6" @click="open" role="link" tabindex="0" @keyup.enter="open">
     <v-img :src="thumbSrc" height="220" cover class="tile-img">
       <div class="play">
         <v-icon size="44">mdi-play-circle</v-icon>
