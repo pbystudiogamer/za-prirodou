@@ -108,8 +108,9 @@ export default {
           chips: [
             { icon: 'mdi-walk', type: 'vzdalenost', text: '13,2 km' },
             { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Lehká' },
-            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1 245 m' },
-            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '320 m' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '656 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '544 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '328 m n.m.' },
           ],
           videoLink: 'https://www.youtube.com/watch?v=UROjChE3rfg',
           videoTitle: 'Video z našeho výsadku',

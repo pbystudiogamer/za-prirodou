@@ -14,28 +14,17 @@
       {{ description }}
     </v-card-text>
 
-    <v-card-actions class="pb-4 px-4">
+    <v-card-actions class="pb-4 px-4 chips-wrap">
       <v-chip
           v-for="(c, i) in chips"
           :key="i"
           size="small"
-          class="me-1"
+          class="me-1 mb-1"
           variant="flat"
           color="green-darken-2"
       >
-        <v-tooltip v-if="CHIP_TOOLTIPS[c.type]" :text="CHIP_TOOLTIPS[c.type]" location="top">
-          <template #activator="{ props }">
-      <span v-bind="props" class="d-flex align-center">
         <v-icon start size="16">{{ c.icon }}</v-icon>
         {{ c.text }}
-      </span>
-          </template>
-        </v-tooltip>
-
-        <template v-else>
-          <v-icon start size="16">{{ c.icon }}</v-icon>
-          {{ c.text }}
-        </template>
       </v-chip>
     </v-card-actions>
   </v-card>
@@ -60,8 +49,6 @@
         />
       </div>
 
-
-      <!-- BODY (scroll) -->
       <div class="dialog-body">
         <div class="dialog-bar__desc"  v-html="description" />
         <div class="media-grid">
@@ -81,8 +68,6 @@
             <p v-if="section.footer" class="section-desc">
               {{ section.footer }}
             </p>
-
-
             <v-divider class="mt-6" />
           </div>
         </div>
@@ -295,5 +280,12 @@ export default {
 
 .section-sectionTitle {
   margin-bottom: 20px;
+}
+
+.chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
 }
 </style>

@@ -121,6 +121,7 @@ export default {
               '    </ul>\n' +
               '  </li>\n' +
               '</ol>'  },
+        { icon: 'mdi-arrow-top-right', type: 'nejvyssi-bod', text: '1 245 m', header: '<b>Nastoupáno:</b>', description: 'Počet nastoupaných metrů' },
         { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1 245 m', header: '<b>Nejvyšší bod:</b>', description: 'Nadmořská výška nejvyššího bodu treku uvedená v metrech.' },
         { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '320 m', header: '<b>Nejnižší bod:</b>', description: 'Nadmořská výška nejnižšího bodu treku uvedená v metrech.'  },
       ],
