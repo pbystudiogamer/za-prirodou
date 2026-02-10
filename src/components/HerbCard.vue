@@ -65,7 +65,7 @@
             <h4>{{videoTitle}}</h4>
           </v-row>
           <v-row justify="center">
-            <v-col cols="12" md="4" class="d-flex justify-center">
+            <v-col cols="12" md="6" class="d-flex justify-center">
               <VideoCard :href="videoLink" :title="title" :description="latinTitle" />
             </v-col>
           </v-row>

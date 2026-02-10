@@ -38,19 +38,6 @@ import vystrojImage from "@/assets/4-vystroj.jpg";
 import nocovaniImage from "@/assets/5-nocovani.jpg";
 import obleceniImage from "@/assets/6-oblecení.jpg";
 
-const loadImgsVareni = () => {
-  const m = import.meta.glob("/src/assets/vybava/*.{jpg,jpeg,png,webp}", {
-    eager: true,
-    import: "default",
-  });
-
-  return Object.entries(m)
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([, v]) => v);
-};
-
-const pick = (arr, i) => (Array.isArray(arr) ? arr[i - 1] : undefined);
-
 
 export default {
   components: {
