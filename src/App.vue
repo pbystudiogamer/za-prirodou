@@ -46,18 +46,16 @@ import FooterSection from "@/components/Footer.vue";
   padding-bottom: 48px;
 }
 
-/* šířka sloupce + centrování */
 .content-container {
-  max-width: 60%; /* uprav podle potřeby */
+  max-width: 60%;
   margin: 0 auto;
 }
 @media(max-width: 1024px) {
   .content-container {
-    max-width: 80%; /* uprav podle potřeby */
+    max-width: 80%;
     margin: 0 auto;
   }
 }
-
 
 .app-header{
   position: fixed;
@@ -72,13 +70,12 @@ import FooterSection from "@/components/Footer.vue";
   bottom: 0;
   left: 0;
   right: 0;
-  top: auto;              /* důležité */
+  top: auto;
   z-index: 2000;
 }
 
 .main-content{
-  margin-top: 450px;      /* výška headeru */
-  margin-bottom: 80px;    /* výška footeru */
+  margin-top: 360px;      /* výška headeru */
 }
 
 @media (max-width: 1264px) {

@@ -46,16 +46,12 @@
 
     <div class="banner-content">
       <v-row justify="center" align-content="space-evenly" class="h-100">
-        <v-col
-            cols="8"
-            sm="8"
-            md="8"
-            lg="8"
-            xl="8"
-        >
+        <v-col cols="8" sm="8" md="8" lg="8" xl="8">
           <div class="banner-title">
-            <h1>Deflector Bushcraft</h1>
-            <h2>Trek & Outdoor</h2>
+            <div class="title-wrap">
+              <h1>Deflector Bushcraft</h1>
+              <h2>>> Trek & Outdoor <<</h2>
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -71,7 +67,7 @@
           <v-btn class="nav-link" to="/bushcraft">Bushcraft</v-btn>
           <v-btn class="nav-link" to="/trasy-tipy">Trasy & tipy</v-btn>
           <v-btn class="nav-link" to="/vybava">Moje výbava</v-btn>
-          <v-btn class="nav-link" to="/bylinky">Bylinky</v-btn>
+          <v-btn class="nav-link" to="/priroda">Příroda</v-btn>
           <v-btn class="nav-link" to="/recenze">Recenze výbavy</v-btn>
           <v-btn class="nav-link" to="/blog">Blog</v-btn>
           <v-btn class="nav-link" to="/kontakty">Kontakty</v-btn>
@@ -100,7 +96,7 @@
         <v-list-item to="/bushcraft" title="Bushcraft" @click="drawer = false" />
         <v-list-item to="/trasy-tipy" title="Trasy & tipy" @click="drawer = false" />
         <v-list-item to="/vybava" title="Moje výbava" @click="drawer = false" />
-        <v-list-item to="/bylinky" title="Bylinky" @click="drawer = false" />
+        <v-list-item to="/priroda" title="Příroda" @click="drawer = false" />
         <v-list-item to="/recenze" title="Recenze výbavy" @click="drawer = false" />
         <v-list-item to="/blog" title="Blog" @click="drawer = false" />
         <v-list-item to="/kontakty" title="Kontakty" @click="drawer = false" />
@@ -262,6 +258,10 @@ export default {
   background-repeat: no-repeat;
 }
 
+.banner-title h2 {
+  text-align: center;
+}
+
 /*lg*/
 @media (max-width: 1264px) {
   .banner{
@@ -306,6 +306,14 @@ export default {
 .banner-title {
   text-shadow: 0 2px 6px rgba(0,0,0,0.65);
   line-height: 1.1;
+}
+
+.title-wrap {
+  display: inline-block;
+}
+
+.title-wrap h2 {
+  text-align: center;
 }
 
 .h-100 {

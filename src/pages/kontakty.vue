@@ -29,13 +29,27 @@
           />
         </div>
       </v-row>
+
+      <v-row justify="center" class="mt-8">
+        <v-col cols="12" class="d-flex justify-center">
+          <v-img
+              :src="kontaktyImage"
+              height="100%"
+              max-width="1000"
+              cover
+              class="kontakty-image"
+          />
+        </v-col>
+      </v-row>
     </v-container>
 </template>
 
 <script>
+import kontakty from '@/assets/kontakty.png';
 export default {
   data() {
     return {
+      kontaktyImage: kontakty,
       socialLinks: [
         { icon: 'mdi-email', href: 'mailto:DeflectorCZ@gmail.com', target: '_blank', rel: 'noopener noreferrer'},
         { icon: 'mdi-facebook', href: 'https://www.facebook.com/groups/deflectoraprochazkari', target: '_blank', rel: 'noopener noreferrer'},
@@ -52,7 +66,7 @@ export default {
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .socials {
@@ -63,5 +77,10 @@ export default {
 
 .v-btn {
   font-size: 40px;
+}
+
+.kontakty-image{
+  border-radius: 18px;
+  overflow: hidden;
 }
 </style>

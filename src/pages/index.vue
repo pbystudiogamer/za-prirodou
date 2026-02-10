@@ -1,7 +1,6 @@
 <template>
   <v-container class="page-root">
     <v-row class="inner" align-content="center" justify="center" no-gutters>
-      <!-- UPRAVENO: responsive velikost nadpisu -->
       <h3 class="welcome-title">Vítej ve světě lesů, hor a luk :-)</h3>
     </v-row>
 
@@ -13,9 +12,14 @@
       </div>
     </v-row>
 
+    <v-row justify="center" no-gutters>
+      <v-col cols="12" class="d-flex justify-center">
+        <v-img :src="def_logo_image" height="350" max-width="600" contain />
+      </v-col>
+    </v-row>
+
     <v-row class="index-text" justify="center" no-gutters>
       <div class="text-center">
-        <!-- UPRAVENO: responsive velikost podnadpisu -->
         <h4 class="welcome-subtitle">Vstup do světa, kde se les stává domovem a stezky příběhem.</h4>
       </div>
     </v-row>
@@ -23,6 +27,15 @@
 </template>
 
 <script>
+import def_logo from '@/assets/deflector_logo.png';
+
+export default {
+  data() {
+    return {
+      def_logo_image: def_logo,
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -31,34 +44,31 @@
   flex-direction: column;
 }
 
-/* UPRAVENO: default font-size menší pro mobil, velký spacing jen na větších obrazovkách */
 .index-text {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;          /* UPRAVENO (bylo 22px) */
+  font-size: 18px;
   font-weight: 500;
-  margin-bottom: 36px;      /* UPRAVENO (bylo 100px) */
-  padding: 0 16px;          /* UPRAVENO: okraje na mobil */
+  margin-bottom: 36px;
+  padding: 0 16px;
 }
 
-/* UPRAVENO: nadpisy přes clamp() – automaticky škálují podle šířky */
 .welcome-title {
-  font-size: clamp(20px, 4.5vw, 32px); /* UPRAVENO: responsive */
+  font-size: clamp(20px, 4.5vw, 32px);
   line-height: 1.2;
   text-align: center;
-  padding: 0 16px;                    /* UPRAVENO: okraje na mobil */
+  padding: 0 16px;
 }
 
 .welcome-subtitle {
-  font-size: clamp(18px, 3.5vw, 26px); /* UPRAVENO: responsive */
+  font-size: clamp(18px, 3.5vw, 26px);
   line-height: 1.25;
   margin: 0;
 }
 
-/* UPRAVENO: na desktop vrátíme větší text + spacing */
 @media (min-width: 960px) {
   .index-text {
-    font-size: 22px;      /* UPRAVENO: původní hodnota pro desktop */
-    margin-bottom: 100px; /* UPRAVENO: původní hodnota pro desktop */
+    font-size: 22px;
+    margin-bottom: 25px;
     padding: 0;
   }
 

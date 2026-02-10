@@ -1,5 +1,5 @@
 <template>
-  <v-card class="tile" rounded="xl" width="360"  elevation="6" @click="dialog = true" role="link" tabindex="0" @keyup.enter="dialog = true">
+  <v-card class="tile" rounded="xl" width="420"  elevation="6" @click="dialog = true" role="link" tabindex="0" @keyup.enter="dialog = true">
     <v-img :src="image" height="220" cover class="tile-img">
     </v-img>
 

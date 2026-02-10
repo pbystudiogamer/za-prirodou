@@ -29,16 +29,18 @@
           <v-divider style="margin-bottom: 25px; margin-left: -200px"/>
         </div>
 
-        <v-row style="margin-top: 120px;">
-          <v-col
-              v-for="item in videos"
-              cols="12"
-              md="4"
-              class="d-flex justify-center"
-          >
-            <VideoCard v-bind="item" />
-          </v-col>
-        </v-row>
+
+      </v-col>
+    </v-row>
+  </v-container>
+  <v-container style="width: 120%">
+    <v-row style="margin-top: 120px;" class="ga-6 justify-center">
+      <v-col
+          v-for="item in videos"
+          cols="auto"
+          class="d-flex"
+      >
+        <VideoCard v-bind="item" />
       </v-col>
     </v-row>
   </v-container>
@@ -46,12 +48,9 @@
 
 <script>
 import VideoCard  from '@/components/VideoCard.vue'
-import lighter from "@/assets/lighter.jpg";
-import ItemCard from "@/components/ItemCard.vue";
 
 export default {
   components: {
-    ItemCard,
     VideoCard
   },
   data() {
@@ -126,6 +125,31 @@ export default {
           href: 'https://www.youtube.com/watch?v=uLj4RiDVu5k',
           title: 'Výroba bushcraft kořenky ➠ Výroba, rady a vychytávky',
           description: 'V tomto videu jsem se pokusil vyrobit kořenky a myslím, že se mi to i povedlo :-) Tak snad se vám bude návod líbit ;-)',
+        },
+        {
+          href: 'https://www.youtube.com/watch?v=DpsoC1MfsJY',
+          title: 'Bushcraft pouzdro na sekeru',
+          description: 'To si tak jednou jdete lesem a ztratíte pouzdro na sekeru..co budete dělat? Toto videjko Vám snad poskytne radu či alespoň inspiraci :-)',
+        },
+        {
+          href: 'https://www.youtube.com/watch?v=XVKbS7lEqN4',
+          title: 'Bushcraft armchair - Just Relax :-)',
+          description: 'Armchair without nails :-) Just an ax, a saw, a knife and a piece of string and a large armchair with a great carrying capacity :-) Production time about 1 hour :-)',
+        },
+        {
+          href: 'https://www.youtube.com/watch?v=QdjKDEeYK2E',
+          title: 'Construction of shelter part 1 - basic construction',
+          description: 'Today, together we start a new project and it is building permanent shelter. As only basic tools are used - folding saw, ax and knife :-) I use stronger jute string :-)',
+        },
+        {
+          href: 'https://www.youtube.com/watch?v=jJtCzgYgaLY',
+          title: 'Bushcraft stolička ➠ Snadněji už to nejde',
+          description: 'Tak jsem si řekl, že bych mohl vyrobit stoličku k ohni a to co nejjednodušeji, s tím, že to musí být stále stolička a ne jen kláda hozená na zem. Druhou podmínkou bylo použití co nejméně nástrojů k dosažení tohoto cíle :-) No a výsledek vidíte ve videu :-)',
+        },
+        {
+          href: 'https://www.youtube.com/watch?v=g8aEkhB3-3E',
+          title: 'Jak vyrobit závěs na KOTLÍK ➠ 3 druhy',
+          description: 'V tomto videu uvidíte výrobu třech druhů závěsů na kotlík..od jednoduchého pro složitější. Pokud používáte jiné, tak budu moc rád, když nám je ukážete na FB skupině "Deflector a Procházkáři" :-)',
         }
       ],
     }

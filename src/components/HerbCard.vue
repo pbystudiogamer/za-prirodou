@@ -2,7 +2,7 @@
   <v-card
       class="tile"
       rounded="xl"
-      width="300"
+      width="420"
       elevation="6"
       @click="dialog = true"
       role="button"
@@ -148,17 +148,6 @@ export default {
   overflow: hidden;
 }
 
-.dialog-title{
-  padding-left: 24px;
-  padding-right: 16px;
-}
-
-.title-wrap{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
 .dialog-body{
   max-height: min(72vh, 720px);
   overflow-y: auto;
@@ -184,7 +173,6 @@ export default {
 .dialog-bar__close{
   color: #fff !important;
 }
-
 
 .media-grid{
   display: grid;
