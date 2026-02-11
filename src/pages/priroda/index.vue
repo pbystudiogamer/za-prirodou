@@ -1,5 +1,3 @@
-
-
 <template>
   <v-container>
     <v-row justify="center" style="margin-bottom: 50px">
@@ -11,7 +9,6 @@
     <v-row>
       <v-col cols="12" md="6" class="d-flex flex-column align-center">
         <h4 class="mb-4">Bylinky</h4>
-
         <v-card
             class="tile"
             rounded="xl"
@@ -22,7 +19,7 @@
             tabindex="0"
             style="cursor: pointer"
         >
-          <v-img :src="herbsTile.image" height="220" cover class="tile-img" />
+          <v-img :src="herbsTile.image" height="220" cover class="tile-img" position="center 20%" />
           <v-card-title>{{ herbsTile.title }}</v-card-title>
           <v-card-text class="desc">{{ herbsTile.description }}</v-card-text>
         </v-card>
@@ -30,7 +27,6 @@
 
       <v-col cols="12" md="6" class="d-flex flex-column align-center">
         <h4 class="mb-4">Vzdělávání</h4>
-
         <v-card
             class="tile"
             rounded="xl"
@@ -41,7 +37,7 @@
             tabindex="0"
             style="cursor: pointer"
         >
-          <v-img :src="eduTile.image" height="220" cover class="tile-img" />
+          <v-img :src="eduTile.image" height="220" cover class="tile-img" position="center 15%"  />
           <v-card-title>{{ eduTile.title }}</v-card-title>
           <v-card-text class="desc">{{ eduTile.description }}</v-card-text>
         </v-card>
@@ -82,7 +78,7 @@ export default {
 
 <style lang="scss" scoped>
 .tile { cursor: pointer; background-color: #7b8f3b; }
-.tile-img { border-top-left-radius: 24px; border-top-right-radius: 24px; position: relative; }
+.tile-img { position: relative; }
 
 .card-title{
   font-size: 1.2rem;
