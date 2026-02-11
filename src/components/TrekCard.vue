@@ -29,7 +29,7 @@
     </v-card-actions>
   </v-card>
 
-  <v-dialog v-model="dialog" max-width="920">
+  <v-dialog v-model="dialog" max-width="1080">
     <v-card class="dialog-card" rounded="xl">
 
       <div class="dialog-bar dialog-bar--top">
@@ -72,16 +72,22 @@
           </div>
         </div>
 
-        <div v-if="videoLink" class="section-desc">
-          <v-row justify="center">
-            <h4>{{videoTitle}}</h4>
-          </v-row>
-          <v-row justify="center">
-            <v-col cols="12" md="12" class="d-flex justify-center">
-              <VideoCard :href="videoLink" :title="fullTitle" :description="videoDescription" />
-            </v-col>
-          </v-row>
-        </div>
+
+        <v-row v-if="videoLinks?.length" justify="center" style="margin-bottom: 40px">
+          <h4>{{videoSectionTitle}}</h4>
+        </v-row>
+        <v-row v-if="videoLinks?.length" :justify="videoLinks.length === 1 ? 'center' : 'start'">
+
+          <v-col
+              v-for="(v, i) in videoLinks"
+              :key="i"
+              cols="12"
+              md="6"
+              class="d-flex justify-center"
+          >
+            <VideoCard :href="v.href" :title="v.title" :description="v.description" />
+          </v-col>
+        </v-row>
       </div>
 
       <!-- BOTTOM BAR (sticky) -->
@@ -129,10 +135,9 @@ export default {
       default: () => [],
     },
     basicInformation: { type: String, default: '' },
+    videoSectionTitle: { type: String, default: '' },
     fullInformation: { type: Object, default: '' },
-    videoLink: { type: String, default: '' },
-    videoTitle: { type: String, default: '' },
-    videoDescription: { type: String, default: '' },
+    videoLinks: { type: Array, default: () => [] },
   },
   data() {
     return {
@@ -192,16 +197,6 @@ export default {
   overflow: hidden;
 }
 
-.dialog-title{
-  padding-left: 24px;
-  padding-right: 16px;
-}
-
-.title-wrap{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
 
 .dialog-body{
   max-height: min(72vh, 720px);
@@ -237,10 +232,11 @@ export default {
 
 .media-grid{
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 450px 1fr;
   gap: 60px;
   margin-top: 18px;
   align-items: center;
+  margin-bottom: 40px
 }
 @media (max-width: 900px){
   .media-grid{ grid-template-columns: 1fr; }

@@ -1,50 +1,42 @@
 <template>
-  <v-container style="">
-    <v-row justify="center" style="margin-bottom: 50px" >
-      <v-col cols="12" >
-        <h4 class="text-center" style="margin-bottom: 50px">
-          Bushcraft
-        </h4>
+  <v-container>
+    <v-row justify="center" >
+      <v-col cols="12">
+        <h4 class="text-center mb-12">Bushcraft</h4>
 
-        <h5 class="text-center" style="margin-bottom: 25px">
-          Co to vlastně ten Bushcraft je?
-        </h5>
+        <h5 class="text-center mb-6">Co to vlastně ten Bushcraft je?</h5>
 
-        <div class="text-section text-center" style="margin-bottom: 25px">
-          Bushcraft je pojem, který označuje soubor dovedností a znalostí potřebných k přežití a pohodlnému <b>dlouhodobějšímu</b> životu v přírodě s využitím <b>přírodních zdrojů.</b>
-
+        <div class="text-section text-center mb-8">
+          Bushcraft je pojem, který označuje soubor dovedností a znalostí potřebných k přežití a pohodlnému
+          <b>dlouhodobějšímu</b> životu v přírodě s využitím <b>přírodních zdrojů.</b>
         </div>
-        <v-divider style="margin-bottom: 25px; margin-left: -150px"/>
-        <div
-            v-for="(item, index) in items"
-            style="margin-bottom: 25px;">
-            <h5 style="margin-left: 150px; margin-bottom: 20px">{{index+1}}. {{item.title}}</h5>
-            <ul style="margin-bottom: 25px">
-              <v-row
-                v-for="(itm, idx) in item.points"
-                style="margin-left: 200px">
-                <li v-html="itm"></li>
-              </v-row>
-            </ul>
-          <v-divider style="margin-bottom: 25px; margin-left: -200px"/>
-        </div>
+        <v-divider class="my-6 full-divider" />
+      </v-col>
+    </v-row>
+    <v-row class="mb-12" justify="center">
+      <v-col cols="8" md="12">
+      <div v-for="(item, index) in items" :key="index" class="mb-6 section">
+        <h5 class="mb-5">{{ index + 1 }}. {{ item.title }}</h5>
 
+        <ul class="mb-6">
+          <li v-for="(itm, idx) in item.points" :key="idx" class="mb-2" v-html="itm" />
+        </ul>
 
+        <v-divider class="my-6 full-divider" />
+      </div>
       </v-col>
     </v-row>
   </v-container>
-  <v-container style="width: 120%">
-    <v-row style="margin-top: 120px;" class="ga-6 justify-center">
-      <v-col
-          v-for="item in videos"
-          cols="auto"
-          class="d-flex"
-      >
+  <h4 class="text-center mb-12">Videa o bushraftu</h4>
+  <v-container class="videos-container">
+    <v-row class="mt-16 ga-6 justify-center">
+      <v-col v-for="item in videos" :key="item.href" cols="auto" class="d-flex">
         <VideoCard v-bind="item" />
       </v-col>
     </v-row>
   </v-container>
 </template>
+
 
 <script>
 import VideoCard  from '@/components/VideoCard.vue'
@@ -160,5 +152,36 @@ export default {
 <style scoped>
 .v-container {
   width: 80%;
+}
+
+.videos-container {
+  width: min(120%, 100%);
+}
+
+ul {
+  list-style-position: outside;
+  padding-inline-start: 1.25rem;
+  margin: 0;
+}
+
+
+.section {
+  padding-inline: clamp(0px, 0vw, 40px);
+}
+
+.section ul {
+  padding-inline-start: clamp(0px, 0vw, 36px);
+  margin: 0;
+}
+
+.section li {
+  line-height: 1.6;
+}
+
+.full-divider {
+  width: 60vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 </style>
