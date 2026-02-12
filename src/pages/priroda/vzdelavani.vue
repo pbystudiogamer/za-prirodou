@@ -81,7 +81,7 @@ export default {
         },
         {
           title: "Poznávačka Jehličnanů",
-          description: "Doupnými stromy rozumíme stromy s dobře vyvinutými přírodními dutinami. Takové dutiny vznikají jednak vydlabáním, jak to činí zejména datlovití ptáci, nebo v důsledku narušení jádrového dřeva kmene hnilobami. Přítomnost dutin nám prozrazují také otevřené suky po vypadlých větvích.",
+          description: "Co si takhle vyzkoušet, zda poznáte některé z našich běžně rozšířených druhů jehličnatých stromů? :-) Nebojte, nebudou to nijak zvláště těžké druhy k určení (až na 4 výjimky :-) ) a se všemi se můžeme v našich lesích potkat :-) Každý si to může vyzkoušet a kdo nebude chtít, tak se alespoň může podívat na to, co u nás všechno roste :-)",
           videoItem: {
             title: "Poznávačka Jehličnanů",
             description: "",

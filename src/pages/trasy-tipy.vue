@@ -133,9 +133,8 @@ export default {
           fullTitle: 'Čundr po Hostýnských vrších - dvoudenní dobrodružství plné výhledů, větru a pohody',
           country: 'fi fi-cz',
           location: 'Česká Republika / Severní Morava (Zlínský kraj)',
-          description: 'Třeba dodat krátký description který se bude zobrazovat na tomto místě',
-          basicInformation: '<strong>Základní informace</strong> <br>' +
-              'Tady by chtělo dodat nějaké základní informace o cestě, případně nějaký úvod. Viz předchozí výsadek na Chřiby...',
+          description: 'Hostýnské vrchy a kombinace počínající syrové zimy, výhledů a večerního pohodlí v hamace vytvořila výlet, na který se jen tak nezapomíná.',
+          basicInformation: 'Dva dny v Hostýnských vrších přinesly výšlap na Kelčský Javorník, dechberoucí výhledy a zaslouženou odměnu. Prošli jsme kouzelným úsekem Skaliska na Sochové a užili si klid přírody. Nechyběla ani sladká snídaně a pohodová atmosféra.',
           fullInformation: [
             {
               title: 'Začátek cesty',
@@ -179,7 +178,7 @@ export default {
           fullTitle: 'Dva dny na hřebenech Jeseníků: Vozka, Keprník a Kamenné okno',
           country: 'fi fi-cz',
           location: 'Česká Republika / Severní Morava',
-          description: 'Třeba dodat krátký description který se bude zobrazovat na tomto místě',
+          description: 'Jeseníky přinesly atmosféru, která člověka úplně odřízne od světa pod mlhou. Putování nad inverzí, tiché hřebeny a silná místa v krajině vytvořily zážitek, který zůstane v hlavě ještě dlouho.',
           basicInformation: 'Dva dny strávené na vrcholcích Jeseníků nám nabídly dokonalé počasí i atmosféru, na kterou se nezapomíná. V údolích se válela hustá mlha, zatímco my jsme kráčeli vysoko nad ní a užívali si kouzlo horských panoramat. Byl to víkend plný klidu, výhledů a momentů, které stojí za to prožít.',
           fullInformation: [
             {
