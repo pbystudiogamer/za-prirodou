@@ -8,7 +8,6 @@
 
     <v-row>
       <v-col cols="12" md="6" class="d-flex flex-column align-center">
-        <h4 class="mb-4">Bylinky</h4>
         <v-card
             class="tile"
             rounded="xl"
@@ -26,7 +25,6 @@
       </v-col>
 
       <v-col cols="12" md="6" class="d-flex flex-column align-center">
-        <h4 class="mb-4">Vzdělávání</h4>
         <v-card
             class="tile"
             rounded="xl"
