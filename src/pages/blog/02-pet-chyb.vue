@@ -7,11 +7,30 @@
         </v-btn>
       </v-col>
     </v-row>
+    <br>
+    <br>
+    <v-row justify="center" class="mb-8">
+      <v-col cols="12" lg="10" >
+        <p>Když člověk poprvé vyrazí do lesa s batohem na zádech, očekávání jsou jasná: oheň na první škrtnutí, klid v duši, hvězdy nad hlavou a pocit, že teď jsem konečně správně.
+          Realita?
+          Déšť, studené ruce, vybavení, které „mělo fungovat“, a batoh těžší než víkendový nákup.
+          A je to v pořádku.
+          Každý, kdo dnes umí přežít noc v lese s naprostou pohodou, si prošel stejnými chybami jako ty. Rozdíl je jen v tom, že některé lekce bolely víc, než bylo nutné.
+          A přesně proto vznikl tenhle článek.
+          Aby tvoje cesta byla kratší, pohodlnější a hlavně – abys měl v lese pohodu, ne frustraci.
+          <br>
+          <br>
+          <b>Pojďme na to:</b>
+
+        </p>
+        <br>
+      </v-col>
+    </v-row>
 
     <!-- SEKCE 1 -->
     <v-row justify="center" class="mb-8" style="margin-top: 50px">
       <v-col cols="12" class="d-flex justify-center">
-        <h4>1) CHYBEJICI TITULEK, TREBA DOPLNIT :)</h4>
+        <h4>1) PŘEHNANĚ TĚŽKÝ BATOH 🎒</h4>
       </v-col>
     </v-row>
 
@@ -55,7 +74,7 @@
     <!-- SEKCE 2 -->
     <v-row justify="center" class="mb-8 section">
       <v-col cols="12" class="d-flex justify-center">
-        <h4>2) ŠPATNÉ ODHADNUTÍ POČASÍ</h4>
+        <h4>2) ŠPATNÉ ODHADNUTÍ POČASÍ ⛈️</h4>
       </v-col>
     </v-row>
 
@@ -95,7 +114,7 @@
     <!-- SEKCE 3 -->
     <v-row justify="center" class="mb-8 section">
       <v-col cols="12" class="d-flex justify-center">
-        <h4>3) NEPŘÍPRAVA NA OHEŇ</h4>
+        <h4>3) NEPŘÍPRAVA NA OHEŇ 🔥</h4>
       </v-col>
     </v-row>
 
@@ -140,7 +159,7 @@
     <!-- SEKCE 4 -->
     <v-row justify="center" class="mb-8 section">
       <v-col cols="12" class="d-flex justify-center">
-        <h4>4) ŠPATNÉ MÍSTO NA PŘESPÁNÍ</h4>
+        <h4>4) ŠPATNÉ MÍSTO NA PŘESPÁNÍ 🏝️</h4>
       </v-col>
     </v-row>
 
@@ -180,7 +199,7 @@
     <!-- SEKCE 5 -->
     <v-row justify="center" class="mb-8 section">
       <v-col cols="12" class="d-flex justify-center">
-        <h4>5) ROMANTICKÁ PŘEDSTAVA NAMÍSTO REALITY</h4>
+        <h4>5) ROMANTICKÁ PŘEDSTAVA NAMÍSTO REALITY 💔</h4>
       </v-col>
     </v-row>
 
