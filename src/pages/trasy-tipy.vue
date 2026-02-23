@@ -57,6 +57,7 @@ import TrekCard from '@/components/TrekCard.vue'
 import vysadek01Image from "@/assets/vysadky/01-chriby.jpg";
 import vysadek02Image from "@/assets/vysadky/02-hostynskeVrchy.jpg";
 import vysadek03Image from "@/assets/vysadky/03-jeseniky.jpg";
+import vysadek04Image from "@/assets/vysadky/04-jeseniky.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -215,6 +216,64 @@ export default {
               description: 'Dva dny na vrcholcích Jeseníků – Vozka, Keprník a Kamenné okno nás přivítaly dokonalým počasím. V údolích se rozprostírala mlha, zatímco my jsme kráčeli nad její hladinou a objevovali kouzlo horských panoramat. Víkend plný krásných výhledů, klidu a nezapomenutelných okamžiků.'
             }
           ],
+        },
+        {
+          id: 1,
+          image: vysadek04Image,
+          title: 'Přes Medvědí vrch',
+          fullTitle: 'Dvoudenní zasněžený vandr po Jesenících',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Severní Morava',
+          description: 'Víkend v Jeseníkách jak z pohádky.\n' +
+              'Déšť vystřídalo tiché sněžení a krajina kolem Medvědího vrchu se během chvíle proměnila v zimní kouzlo. Výhledů moc nebylo, ale ta atmosféra stála za každý krok. ❄️🌲\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Přes den příjemných kolem 0 °C, v noci trošku kleslo na –0,6 °C a tato teplota se držela přes i přes druhý den. První den nepočítám, to nám v nižších polohách pršelo, ale jakmile jsme se vyhoupli o trošku výše, tak začalo to pravé zimní počasí se sněžením, které zůstalo až po sestoupání zpět k autu, kde začalo opět poprchat.\n',
+
+          fullInformation: [
+            {
+              title: 'Putování kolem Medvědího vrchu: zříceniny, skalní vyhlídky a tiché jesenické lesy',
+              description: 'Výpravu jsme odstartovali v horské vesničce Bílý Potok, odkud se stezka stáčí do tichých jesenických lesů. První zastávkou byla zřícenina hradu Rabenštejn, dnes už jen skrytý fragment historie, který působí skoro až tajemně mezi hustými stromy.\n' +
+                  'Pokračovali jsme k Kamzičí skále, výraznému skalnímu útvaru s křížem a krásnou atmosférou horské samoty. Odtud už trasa začala nabírat výšku směrem k hlavnímu vrcholu dne — Medvědímu vrchu (1216 m).\n' +
+                  'Z Medvědího vrchu jsme se přesunuli k Janovým skalám (1075 m), kde jsme zakončili první den. Skalní bloky, ticho lesa a minimum lidí vytvořily ideální místo k přespání. Večer měl přesně tu jesenickou atmosféru, kterou člověk hledá — klid, chladný vzduch a pocit, že jste daleko od všeho.\n' +
+                  '<br><br><strong>Po cestě jsme po oba dny navštívili tyto lokality:</strong> <br>',
+              points: [
+                '<b>Zřícenina hradu Rabenštejn</b>',
+                '<b>Kamzičí skála (901 m)</b>',
+                '<b>Medvědí vrch (1216 m)</b>',
+                '<b>Janovy skály (1075 m)</b>',
+                '<b>Studánka u Pytláka</b>',
+                '<b>Jánská chata</b>',
+                '<b>Pytlák (1040 m)</b>',
+              ],
+              footer: 'Určitě velmi zajímavá místa, která stojí za návštěvu..musí na nich být i nádherný výhled, který jsme bohužel kvůli mlze neměli.'
+            },
+            {
+              title: 'Noc u Janových skál',
+              description: 'Zadní část Janových skal je hezky schovaná od cesty a je super pro přespání a to jak na zemi, tak i v hamakách, které jsme měli jak již obligátně i my. Na večeři jsme měli Nikčino výborné curry a po vydatné večeři a chvilce u ohně jsme se vydali spát.'
+            },
+            {
+              title: 'Druhý den: Studánka u Pytláka, Pytlák a návrat do Bílého Potoka',
+              description: 'Ráno jsme se probudili u Janových skal a pokračovali dál po hřebeni. Cestou nás čekala Studánka u Pytláka, příjemné místo na doplnění vody a krátký odpočinek. O kousek dál leží i samotný Pytlák (1040 m), nenápadný vrchol, který ale hezky uzavírá celou trasu.  ' +
+                  'Sestup zpět do Bílého Potoka už byl klidnější, vedený převážně lesem a ideální na to, aby si člověk v hlavě srovnal všechny dojmy z dvoudenního putování. Nicméně závěrečné klesání nám v nižších polohách urychlil mírný deštík'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Celý okruh nabízí kombinaci historie, skalních útvarů, horských lesů a míst, kde panuje opravdové ticho. Přesně ten typ trasy, kde nejde o davy turistů, ale o atmosféru a kontakt s přírodou.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '16,7 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '766 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1218 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '602 m n.m.' },
+          ],
+          videoSectionTitle: 'Videa z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=T1tEuRyBE6c&t',
+            title: 'Výsadek Chřiby',
+            description: 'Přespání ve Chřibech poprvé v zimě :-) Nocování bylo bez problémů, jen věšet hamaky v -12 a s větrem, nic moc :-) Vše jsme ale zvládli a víkend si v této úžasné lokalitě moc užili ;-) '
+          }],
         },
       ]
     }
