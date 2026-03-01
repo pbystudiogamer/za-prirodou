@@ -1,4 +1,5 @@
 <template>
+  <inject />
   <v-app class="app-container">
     <div class="app-header">
       <HeaderSection />
@@ -29,6 +30,7 @@
 //
 import HeaderSection from "@/components/Header.vue";
 import FooterSection from "@/components/Footer.vue";
+import { inject } from "@vercel/analytics"
 </script>
 
 <style>
