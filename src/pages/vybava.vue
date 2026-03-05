@@ -181,13 +181,13 @@ export default {
               id: 3,
               title: 'Zateplení peří/duté vlákno Aliexpress',
               description: '',
-              href: 'https://kutt.it/Hdm4Wm',
+              href: 'https://s.click.aliexpress.com/e/_c2IuBHzl',
             },
             {
               id: 4,
               title: 'Spacák Nikča',
               description: '',
-              href: 'https://kutt.it/nq4QCp',
+              href: 'https://s.click.aliexpress.com/e/_c3yLyiW9',
             },
             {
               id: 5,
@@ -205,13 +205,13 @@ export default {
               id: 7,
               title: 'Popruhy k hamace',
               description: '',
-              href: 'https://kutt.it/qYvbYs',
+              href: 'https://s.click.aliexpress.com/e/_c3gCn0J5',
             },
             {
               id: 8,
               title: 'Zateplení pod hamaku Aliexpress',
               description: '',
-              href: 'https://kutt.it/2Hzgyw',
+              href: 'https://s.click.aliexpress.com/e/_c4XLklnZ',
             },
             {
               id: 9,
