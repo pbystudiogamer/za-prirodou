@@ -56,20 +56,20 @@ export default {
             {
               id: 1,
               title: 'Zapalovač plynový Claw Gear Mk.II Storm - coyote',
-              description: 'Kvalitní kapesní zapalovač Storm MK.II od rakousko-švýcarské značky Claw Gear. Hořák je odolný proti větru, takže se ve zhoršených povětrnostních podmínkách nemusíte stresovat s neustále zhasínajícím plamenem. Kromě toho můžete plamen přesně nasměrovat tam, kde ho zrovna potřebujete. Výkon hořáku je nastavitelný až do 1300°C.',
+              description: 'Kvalitní kapesní zapalovač Storm MK.II od rakousko-švýcarské značky Claw Gear.',
               href: 'https://armik.cz/zapalovac-plynovy-claw-gear-mk-ii-storm-coyote/',
             },
             {
               id: 2,
               title: 'Vyvýšené ohniště',
-              description: 'Vysoce kvalitní vyvýšené ohniště pro každou příležitost. Dopřejte si s přáteli pohodu a klid...',
-              href: 'https://www.aliexpress.com/item/1005005996690893.html',
+              description: 'Vysoce kvalitní vyvýšené ohniště pro každou příležitost.',
+              href: 'https://s.click.aliexpress.com/e/_c4MWFcs7',
             },
             {
               id: 3,
               title: 'Dřevěný talíř',
-              description: 'Umělohmotný a přírodně zbarvený talíř, který udrží vaše jídlo na jednom místě.',
-              href: 'https://bit.ly/3WRGM2I',
+              description: '',
+              href: 'https://s.click.aliexpress.com/e/_c3X4LRzd',
             },
             {
               id: 4,
@@ -81,7 +81,7 @@ export default {
               id: 5,
               title: 'Benzínový vařič',
               description: '',
-              href: 'https://kutt.it/huvkWp',
+              href: 'https://s.click.aliexpress.com/e/_c4spvf5H',
             },
             {
               id: 6,
@@ -99,7 +99,7 @@ export default {
               id: 8,
               title: 'Titanové nádobí',
               description: '',
-              href: 'https://bit.ly/456rUiJ',
+              href: 'https://s.click.aliexpress.com/e/_DkIjgIr',
             },
             {
               id: 9,
