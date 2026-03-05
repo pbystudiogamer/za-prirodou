@@ -75,7 +75,7 @@ export default {
               id: 4,
               title: 'Křesadlo Warg Magno',
               description: '',
-              href: 'https://kutt.it/GGS9PL',
+              href: 'https://tinyurl.com/Warg-kresadlo',
             },
             {
               id: 5,
