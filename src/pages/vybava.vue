@@ -73,9 +73,9 @@ export default {
             },
             {
               id: 4,
-              title: 'Křesadlo Warg Magno',
+              title: 'Překapávač Warg Kofein',
               description: '',
-              href: 'https://tinyurl.com/Warg-kresadlo',
+              href: 'https://www.dpbolvw.net/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fprekapavac-kavy-warg-kofein%2F%23cerna',
             },
             {
               id: 5,

@@ -58,6 +58,7 @@ import vysadek01Image from "@/assets/vysadky/01-chriby.jpg";
 import vysadek02Image from "@/assets/vysadky/02-hostynskeVrchy.jpg";
 import vysadek03Image from "@/assets/vysadky/03-jeseniky.jpg";
 import vysadek04Image from "@/assets/vysadky/04-jeseniky.jpg";
+import vysadek05Image from "@/assets/vysadky/05-MaleKarpaty.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -268,12 +269,69 @@ export default {
             { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1218 m n.m.' },
             { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '602 m n.m.' },
           ],
-          videoSectionTitle: 'Videa z výsadku',
+          videoSectionTitle: 'Video z výsadku',
           videoLinks: [ {
             href: 'https://www.youtube.com/watch?v=T1tEuRyBE6c&t',
-            title: 'Výsadek Chřiby',
-            description: 'Přespání ve Chřibech poprvé v zimě :-) Nocování bylo bez problémů, jen věšet hamaky v -12 a s větrem, nic moc :-) Vše jsme ale zvládli a víkend si v této úžasné lokalitě moc užili ;-) '
-          }],
+            title: 'Putování Jeseníky',
+            description: 'Dvoudenní zimní čundr kolem Medvědího vrchu nás provedl zříceninou, skalami, vlčími stopami a hustou mlhou, která zakryla všechny výhledy. Přespali jsme u Janových skal, kde Nikča pod převisem uvařila své legendární curry, a cestou jsme objevili i tajnou vyhlídku u Pytláka – i když opět bez výhledu. Přes 16 kilometrů v dešti, sněhu a tichém sněžení nabídlo syrové, ale krásné zimní dobrodružství ;-) '
+          }
+         ],                              
+        },
+        {
+          id: 1,
+          image: vysadek05Image,
+          title: 'Trek přes Malé Karpaty',
+          fullTitle: 'Dvoudenní trek přes Malé Karpaty',
+          country: 'fi fi-cz',
+          location: 'Slovenská Republika / Západní Slovensko',
+          description: 'Malé Karpaty jsou ideální volbou pro každého, kdo touží po pohodovém, ale zároveň dobrodružném víkendovém vandru. My jsme se s Nikčou vydali na dvoudenní přechod, který spojil krásu hlubokých žlebů, vyhlídek, hradních zřícenin i jarního lesa. A výsledek? Trasa, na kterou budeme ještě dlouho vzpomínat.\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Přes den příjemných 14 °C, ideální na pohodový pochod bez zbytečného pocení. V noci teplota klesla na 5,2 °C, což je na jarní přespání tak akorát — ani zima, ani přehnané teplo. Celý víkend provázelo jasno - krásné světlo, které zvýrazňovalo barvy lesa i skal.\n',
+
+          fullInformation: [
+            {
+              title: 'Putování Malými Karpaty: žleby, vyhlídky, zříceniny a jarní atmosféra',
+              description: 'Výpravu jsme odstartovali u vodní nádrže Buková, odkud se stezka stáčí do Přírodní památky Čertov žľab. Hluboký kaňon s typickou syrovou atmosférou nás hned vtáhl do karpatské divočiny. Další zastávkou byla NPR Hlboča se známým Hlbočianským vodopádem. Ať už padá plnou silou, nebo jen jemně prosakuje, vždycky má své kouzlo. Odtud se trasa začala zvedat a nabídla sérii krásných vyhlídek směrem k Molpíru. Na Molpíru nás čekala ikonická houpačka s výhledem na Smolenice — místo, kde se člověk rád zdrží o pár minut déle. Poté následoval seběh serpentinkami ke Smolenickému zámku, který působil skoro pohádkově. Odtud ale přišla i největší výzva dne — prudký výstup na Havraní skálu. Těžký batoh a pozdní odpoledne umí potrápit, ale výhledy nahoře stály za každý krok.\n' +
+                  '<br><br><strong>Po cestě jsme po oba dny navštívili tyto lokality:</strong> <br>',
+              points: [
+                '<b>CHKO Malé Karpaty</b>',
+                '<b>NPR Záruby</b>',
+                '<b>Přírodní památka Čertov žľab</b>',
+                '<b>NPR Hlboča</b>',
+                '<b>Vrchol Zároby (767 m)</b>',
+                '<b>Zřícenina Ostrý Kameň</b>',
+                
+              ],
+              footer: 'Určitě velmi zajímavá místa, která stojí za návštěvu.'
+            },
+            {
+              title: 'Noc pod Havranicou',
+              description: 'Najít místo na spaní tentokrát nebylo jednoduché. Terén byl strmý, kamenitý nebo prostě nepoužitelný. Nakonec jsme objevili krásné místo kousek pod Havranicou, kde jsme postavili nocleh.\n' +
+                  'Večeře byla jednoduchá, ale perfektní — vajíčka se slaninou, parenicou a čerstvě nasbíraným medvědím česnekem. V lese chutná všechno lépe. Po jídle už jen ticho jarního lesa a zasloužený odpočinek.\n'
+            },
+            {
+              title: 'Druhý den: Havranica, hřebenovka a nejvyšší bod Malých Karpat',
+              description: 'Ráno jsme si vyšlápli na vrchol Havranica a pokračovali po hřebeni směrem k Zárubám — nejvyššímu bodu Malých Karpat. Vrchol je hezký, ale shodli jsme se, že některé předchozí vyhlídky nabídly ještě lepší panoramata. I tak ale dodal energii na další postup. Z hřebene jsme pak klesli ke zřícenině Ostrý Kameň, která nás překvapila svou velikostí i atmosférou. Ideální místo na krátkou pauzu. Odtud už následoval závěrečný sestup zpět k vodní nádrži Buková.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Celý okruh nabízí kombinaci žlebů, vyhlídek, hřebenových úseků, zřícenin a míst, kde panuje opravdové ticho. Přesně ten typ trasy, kde nejde o davy turistů, ale o atmosféru, klid a kontakt s přírodou. Jarní Malé Karpaty mají své kouzlo — a tenhle přechod ho ukázal naplno.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '16,7 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '766 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1218 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '602 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=Eu3CmZHXCnM',
+            title: 'Výsadek Malé Karpaty',
+            description: 'Vyrazili jsme na víkendový přechod Malých Karpat – od Čertova žlebu přes Molpír, Smolenice a Havraní skálu až po Záruby a Ostrý Kameň. Čekaly nás strmé výstupy, nádherné vyhlídky i klidný jarní les. Dva dny v divočině plné dobrodružství a atmosféry, kterou stojí za to zažít ;-) '
+          }
+         ],
         },
       ]
     }
