@@ -319,11 +319,11 @@ export default {
             }
           ],
           chips: [
-            { icon: 'mdi-walk', type: 'vzdalenost', text: '16,7 km' },
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '19,5 km' },
             { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
-            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '766 m' },
-            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1218 m n.m.' },
-            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '602 m n.m.' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1121 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '771 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '272 m n.m.' },
           ],
           videoSectionTitle: 'Video z výsadku',
           videoLinks: [ {
