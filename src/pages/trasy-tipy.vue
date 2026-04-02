@@ -282,7 +282,7 @@ export default {
           image: vysadek05Image,
           title: 'Trek přes Malé Karpaty',
           fullTitle: 'Dvoudenní trek přes Malé Karpaty',
-          country: 'fi fi-cz',
+          country: 'fi fi-sk',
           location: 'Slovenská Republika / Západní Slovensko',
           description: 'Malé Karpaty jsou ideální volbou pro každého, kdo touží po pohodovém, ale zároveň dobrodružném víkendovém vandru. My jsme se s Nikčou vydali na dvoudenní přechod, který spojil krásu hlubokých žlebů, vyhlídek, hradních zřícenin i jarního lesa. A výsledek? Trasa, na kterou budeme ještě dlouho vzpomínat.\n',
           basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
@@ -327,7 +327,7 @@ export default {
           ],
           videoSectionTitle: 'Video z výsadku',
           videoLinks: [ {
-            href: 'https://www.youtube.com/watch?v=Eu3CmZHXCnM',
+            href: 'https://www.youtube.com/watch?v=zcp_zfWj6lU',
             title: 'Výsadek Malé Karpaty',
             description: 'Vyrazili jsme na víkendový přechod Malých Karpat – od Čertova žlebu přes Molpír, Smolenice a Havraní skálu až po Záruby a Ostrý Kameň. Čekaly nás strmé výstupy, nádherné vyhlídky i klidný jarní les. Dva dny v divočině plné dobrodružství a atmosféry, kterou stojí za to zažít ;-) '
           }
