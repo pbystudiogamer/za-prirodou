@@ -51,13 +51,13 @@ export default {
           id: 1,
           image: vareniImage,
           title: "Vaření",
-          description: "Vše o tom, na čem si vaříme v lese.",
+          description: "Výbava na které si vaříme v lese.",
           items: [
             {
               id: 1,
               title: 'Zapalovač plynový Claw Gear Mk.II Storm - coyote',
               description: 'Kvalitní kapesní zapalovač Storm MK.II od rakousko-švýcarské značky Claw Gear.',
-              href: 'https://armik.cz/zapalovac-plynovy-claw-gear-mk-ii-storm-coyote/',
+              href: 'https://armik.cz/zapalovac-plynovy-claw-gear-mk-ii-storm-coyote/?tracking=6076c2ae9e307',
             },
             {
               id: 2,
@@ -87,13 +87,13 @@ export default {
               id: 6,
               title: 'Nerezová sklenička',
               description: '',
-              href: 'https://kutt.it/av3cmV',
+              href: 'https://www.tkqlhce.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fsklenicka-gsi-outdoors-glacier-stainless-nesting-wine%2F%23stribrna',
             },
             {
               id: 7,
               title: 'Pánvička Primus',
               description: '',
-              href: 'https://kutt.it/Lp9RGY',
+              href: 'https://www.kqzyfj.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fpanev-primus-litech-frying-pan-large%2F%23cerna',
             },
             {
               id: 8,
@@ -103,9 +103,9 @@ export default {
             },
             {
               id: 9,
-              title: 'SI Outdoors Infinity Backpacker Mug',
+              title: 'GSI Outdoors Infinity Backpacker Mug',
               description: '',
-              href: 'https://bit.ly/4q8IKbg',
+              href: 'https://www.jdoqocy.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Ftermohrnek-gsi-infinity-backpacker-mug%2F%23zelena',
             }
           ]
         },
@@ -137,25 +137,25 @@ export default {
               id: 4,
               title: 'Batoh Osprey Kestrel 68',
               description: '',
-              href: 'https://kutt.it/4RbHyF',
+              href: 'https://www.dpbolvw.net/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fbatoh-osprey-kestrel-68%2F%23s-m-seda',
             },
             {
               id: 5,
               title: 'Batoh Osprey Kyte 58',
               description: '',
-              href: 'https://kutt.it/e9VthT',
+              href: 'https://www.dpbolvw.net/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fdamsky-turisticky-batoh-osprey-kyte-58%2F%23m-l-cerna',
             },
             {
               id: 6,
               title: 'Teploměr',
               description: '',
-              href: 'https://kutt.it/AZRvDY',
+              href: 'https://s.click.aliexpress.com/e/_c4UsiS33',
             },
             {
               id: 7,
               title: 'Lucerna',
               description: '',
-              href: 'https://kutt.it/mdeg8Y',
+              href: 'https://s.click.aliexpress.com/e/_c3XH3lJr',
             },
           ]
         },
