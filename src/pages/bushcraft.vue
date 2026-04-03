@@ -104,6 +104,11 @@ export default {
           description: 'V tomto videu ti řeknu svůj pohled na to, co je to Bushcraft. Video je úvodem do této problematiky a slouží k osvětlení toho, co to vlastně ten bushcraft je :-)',
         },
         {
+          href: 'https://www.youtube.com/watch?v=P-hpZB0WN48',
+          title: 'BUSHCRAFT: 5 vychytávek do lesa',
+          description: '5 druhů malých vychytávek, které vám pomohou zvýšit pohodu při lesních aktivitách a nebo vám můžou pomoci při obtížných situacích :-)',
+        },  
+        {
           href: 'https://www.youtube.com/watch?v=XSjKYrwxtWM',
           title: 'Bushcraft: Rozdělání ohně křesadlem ➠ I. Březová kůra',
           description: 'Toto video je spíše pro začínající bushcrafťáky. Nicméně si myslím, že si v něm může každý najít něco a když ne, tak aspoň uvidí, jak s březovkou bojuju já :-D',

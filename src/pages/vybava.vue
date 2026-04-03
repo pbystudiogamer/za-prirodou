@@ -62,7 +62,7 @@ export default {
             {
               id: 2,
               title: 'Vyvýšené ohniště',
-              description: 'Vysoce kvalitní vyvýšené ohniště pro každou příležitost.',
+              description: 'Vyvýšené ohniště pro každou příležitost.',
               href: 'https://s.click.aliexpress.com/e/_c4MWFcs7',
             },
             {
@@ -231,19 +231,19 @@ export default {
               id: 1,
               title: 'Helikon Hybrid Outback',
               description: '',
-              href: 'https://kutt.it/xd4SFh',
+              href: 'https://www.bushcraftshop.cz/kalhoty-helikon-hybrid-outback-pants-duracanvas-taiga-green-black/?utm_source=dognet&utm_medium=affiliate&utm_campaign=637b39988119e&visitorId=pUSb3E3Swlmhg7skzUeqQiyvORrfY9d2',
             },
             {
               id: 2,
               title: 'Warg Downjess W',
               description: 'péřová sukně',
-              href: 'https://kutt.it/PvQpsk',
+              href: 'https://www.anrdoezrs.net/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fperova-sukne-warg-downjess-w%2F%23l-cerna',
             },
             {
               id: 3,
               title: 'Čepice EVAS II Bushman',
               description: '',
-              href: 'https://kutt.it/xdKPkG',
+              href: 'https://www.dpbolvw.net/click-101524204-14029536?url=https%3A%2F%2Fbushman.cz%2Fcepice-evas-ii-khaki%2F',
             },
             {
               id: 4,
@@ -285,7 +285,7 @@ export default {
               id: 10,
               title: 'Anorak HELIKON Woodsman - BLACK / TAIGA GREEN',
               description: '',
-              href: 'https://kutt.it/TuxKPS',
+              href: 'https://go.dognet.com/?chid=ZbbXaOiD&url=https%3A%2F%2Fwww.bushcraftshop.cz%2Fanorak-helikon-woodsman-black-taiga-green%2F',
             },
           ]
         }
