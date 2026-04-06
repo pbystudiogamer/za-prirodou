@@ -32,6 +32,7 @@
 import HerbCard from "@/components/HerbCard.vue";
 import jaternikImage from "@/assets/rostliny/01-jaternik.jpg";
 import habrImage from "@/assets/rostliny/02-habr.jpg";
+import kridlatkaImage from "@/assets/rostliny/03-kridlatka.jpg";
 
 export default {
   components: { HerbCard },
@@ -96,7 +97,7 @@ export default {
           videoLink: "https://www.youtube.com/watch?v=Ax7kksu3Ddk\n",
         },
         {
-          image: habrImage,
+          image: kridlatkaImage,
           title: "Křídlatka japonská",
           latinTitle: "(Reynoutria japonica)",
           description: "Statný a odolný strom našich lesů, ceněný pro tvrdé dřevo a schopnost vytvářet husté, přirozené porosty.",
