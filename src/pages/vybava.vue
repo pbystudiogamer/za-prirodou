@@ -169,13 +169,13 @@ export default {
               id: 1,
               title: 'Hamaka Comfort Decathlon',
               description: '',
-              href: 'https://kutt.it/3ARSLs',
+              href: 'https://www.jdoqocy.com/click-101524204-15698594?url=https%3A%2F%2Fwww.decathlon.cz%2Fp%2Fhamaka-comfort-350-175-cm-pro-2-osoby%2F_%2FR-p-327691',
             },
             {
               id: 2,
               title: 'Turistický nafukovací polštář MT 500 (Def)',
               description: '',
-              href: 'https://kutt.it/qvBeqK',
+              href: 'https://www.jdoqocy.com/click-101524204-15698594?url=https%3A%2F%2Fwww.decathlon.cz%2Fp%2Fturisticky-nafukovaci-polstar-mt-500%2F_%2FR-p-343604',
             },
             {
               id: 3,

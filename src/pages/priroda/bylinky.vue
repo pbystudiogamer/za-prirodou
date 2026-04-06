@@ -95,6 +95,37 @@ export default {
           videoTitle: "Odkaz na video",
           videoLink: "https://www.youtube.com/watch?v=Ax7kksu3Ddk\n",
         },
+        {
+          image: habrImage,
+          title: "Křídlatka japonská",
+          latinTitle: "(Reynoutria japonica)",
+          description: "Statný a odolný strom našich lesů, ceněný pro tvrdé dřevo a schopnost vytvářet husté, přirozené porosty.",
+          basicInformation:
+              "<strong>Taxonomie</strong><br>"+
+              "<ul>" +
+              "<li><b>Říše:</b> Plantae</li>" +
+              "<li><b>Třída:</b> Magnoliopsida</li>" +
+              "<li><b>Řád:</b> Caryophyllales</li>" +
+              "<li><b>Čeleď:</b> Polygonaceae (rdesnovité)</li>" +
+              "<li><b>Rod:</b> Reynoutria / Fallopia</li>" +
+              "<li><b>Druh:</b> Reynoutria japonica (syn. Fallopia japonica)</li>" +
+              "</ul> <br>",
+          fullInformation: [
+            {
+              title: "",
+              points: [
+                "Křídlatka japonská je jednou z nejinvazivnějších rostlin současné Evropy. Do české krajiny byla zavlečena v 19. století jako okrasná a půdopevná rostlina, avšak díky své mimořádné vitalitě a schopnosti rychle se šířit se stala vážným ekologickým problémem. Tato práce shrnuje její základní botanické vlastnosti, ekologické dopady, zajímavosti, léčivé účinky i možnosti využití.",
+                "Křídlatka patří do čeledi rdesnovitých (Polygonaceae). Dorůstá výšky 2–3 metrů a vytváří husté porosty z dutých, bambusovitých lodyh. Listy jsou široce vejčité, s rovnou bází a špičatým zakončením. Květy jsou drobné, bělavé, uspořádané v latách a objevují se koncem léta. Rostlina se šíří především vegetativně – i malý úlomek oddenku dokáže vytvořit novou rostlinu. Díky hlubokému a rozsáhlému kořenovému systému je extrémně odolná vůči mechanickému poškození i nepříznivým podmínkám.",
+                "Z ekologického hlediska má křídlatka výrazně negativní vliv. Vytváří monokulturní porosty, které potlačují původní druhy rostlin a snižují biodiverzitu. Její husté stonky brání přístupu světla k půdě a mění mikroklima stanoviště. Na březích toků může narušovat stabilitu půdy, protože na zimu zcela zasychá a nezpevňuje břehy kořenovým systémem tak účinně jako původní vegetace. Regulace křídlatky je náročná a vyžaduje dlouhodobé a kombinované postupy.",
+                "Ačkoli je křídlatka vnímána především jako invazní plevel, má i své zajímavé vlastnosti. V tradiční asijské medicíně se využívají její oddenky, které obsahují resveratrol a další bioaktivní látky. Výtažky se používají při zánětech, kožních problémech či k podpoře imunity. Účinky jsou mírné, ale dobře zdokumentované. Mladé výhonky jsou jedlé a chutí připomínají rebarboru, a proto se někdy využívají v kuchyni.",
+                "Dřevo křídlatky jako takové nemá význam, protože jde o bylinu s dutými lodyhami. Přesto má rostlina praktické využití – může sloužit jako zdroj biomasy, medonosná rostlina nebo surovina pro výrobu přírodních extraktů. V zahradní tvorbě se dnes již nepoužívá, ale její rychlý růst byl dříve ceněn při zakládání živých bariér či stabilizaci svahů.",
+                "Křídlatka japonská je tedy rostlina s výrazným ekologickým dopadem, ale zároveň s určitými léčivými a praktickými možnostmi využití. Její schopnost rychle se šířit z ní činí nebezpečného invazního nepřítele, který vyžaduje pozornost a aktivní management. Zároveň však představuje zajímavý příklad rostliny, jejíž vlastnosti mohou být v jiném kontextu užitečné."
+              ],
+            },
+          ],
+          videoTitle: "Odkaz na video",
+          videoLink: "https://www.youtube.com/watch?v=62lCDomGhK4\n",
+        },  
       ],
     };
   },
