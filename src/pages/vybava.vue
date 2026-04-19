@@ -106,7 +106,13 @@ export default {
               title: 'GSI Outdoors Infinity Backpacker Mug',
               description: '',
               href: 'https://www.jdoqocy.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Ftermohrnek-gsi-infinity-backpacker-mug%2F%23zelena',
-            }
+            },
+            {
+              id: 10,
+              title: 'Mlýnek na kávu',
+              description: '',
+              href: 'https://s.click.aliexpress.com/e/_c404mEK5',
+            }  
           ]
         },
         {
@@ -157,6 +163,12 @@ export default {
               description: '',
               href: 'https://s.click.aliexpress.com/e/_c3XH3lJr',
             },
+            {
+              id: 8,
+              title: 'Batoh Regatta Blackfell IV 20l',
+              description: '',
+              href: 'https://www.jdoqocy.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fbatoh-regatta-blackfell-iv-20l%2F%23cerna',
+            },  
           ]
         },
         {

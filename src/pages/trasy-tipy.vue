@@ -59,6 +59,7 @@ import vysadek02Image from "@/assets/vysadky/02-hostynskeVrchy.jpg";
 import vysadek03Image from "@/assets/vysadky/03-jeseniky.jpg";
 import vysadek04Image from "@/assets/vysadky/04-jeseniky.jpg";
 import vysadek05Image from "@/assets/vysadky/05-MaleKarpaty.jpg";
+import vysadek06Image from "@/assets/vysadky/06-CK.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -333,6 +334,65 @@ export default {
           }
          ],
         },
+        {
+          id: 1,
+          image: vysadek06Image,
+          title: 'Česká Kanada s přespáním v bunkru',
+          fullTitle: 'Dvoudenní trek Českou Kanadou',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Jižní Čechy',
+          description: 'Na výlet do Přírodního parku Česká Kanada jsme se s Nikčou vydali od Valtínovského mlýna. Odtud je to jen kousek k jednomu z nejnavštěvovanějších míst celé oblasti — Rozhledně U Jakuba (33,7 m). Skvělé místo pro rodiny s dětmi, krásné výhledy a příjemné okolí.\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Přes den kolem 12 °C, občas mrholení, vítr a jen sem tam vykouklo sluníčko. Typická nálada České Kanady, která ale místům dodává zvláštní kouzlo. V noci v bunkru se teplota ustálila na příjemných 12 °C.\n',
+
+          fullInformation: [
+            {
+              title: 'Žulové útvary, které stojí za to',
+              description: 'Česká Kanada je doslova posetá balvany. Ďáblova prdel, Ďáblův chléb i Filipovy kameny či vrchol Skalka patří mezi nejzajímavější. Tajuplné tvary, rozházené balvany a krajina, která nutí přemýšlet, jak tohle všechno vzniklo. Nikča si k tomu později vytvořila vlastní teorii – zazní ve videu.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Kaskádu rybníků</b>',
+                '<b>Ďáblovu prdel</b>',
+                '<b>Ďáblův chléb</b>',
+                '<b>Vrchol Skalka (681 m)</b>',
+                '<b>Filipovy kameny</b>',
+                '<b>Rozhledna U Jakuba</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Výhledy, louky a kouzelná atmosféra',
+              description: 'Cesta k Radíkovu byla jedním z nejhezčích úseků. Lesní louky, shluky stromů a dramatické mraky vytvořily skoro pohádkovou atmosféru. Na Skalce jsme vytáhli dron a pořídili pár pěkných záběrů.\n'
+            },
+            {
+              title: 'Překvapení na závěr: noc v bunkru',
+              description: 'Po návratu k Parkovišti U Jakuba nás čekalo překvapení – Nikča až do poslední chvíle netušila, kam jedeme. A už vůbec nečekala, že přespíme v bunkru.\n' +
+                  '\n' +
+                  'Náš nocleh byl v bunkru Jemnice/14/A 110 u Županovic. Uvnitř krásně zařízený prostor s krbovými kamny, venku posezení a ohniště. Nechyběla ani kadibudka s osvěžovačem vzduchu. Večer jsme si opekli klobásky, zatopili a šli spát. Teplota uvnitř se vyšplhala až na 26 °C, i když jsme skoro nepřikládali.\n' +
+                  '\n' +
+                  'Ráno jsme si dali snídani – kafčo a Nikčin velikonoční mazanec – a vyrazili domů.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Dva dny v České Kanadě, minimum náročných úseků, ale maximum zážitků. Tahle oblast je ideální pro rodiny i pohodové výlety, jen je potřeba počítat s delšími přesuny mezi zajímavostmi. A noc v bunkru? Jednoznačně doporučujeme. Česká Kanada má svoje kouzlo – ať je zataženo, mrholí nebo fouká vítr. Tenhle výlet ukázal, že když je dobrá trasa, krásná příroda a trochu dobrodružství, vznikne z toho zážitek, na který se nezapomíná.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '20,9 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Lehká' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '548 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '711 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '588 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=eYPUd8r1Xc4',
+            title: 'Výsadek Česká Kanada + Bunkr',
+            description: 'Putování Českou Kanadou nás provedlo přes rozhledny, tajuplné žulové balvany, rybníky i kouzelné lesní louky, a nakonec skončilo překvapením v podobě noci v bunkru. I přes zatažené počasí mělo celé dobrodružství parádní atmosféru a ukázalo, jak krásná a rozmanitá tato oblast je. Pokud hledáte nenáročný, ale zážitkový výlet, Česká Kanada vás nezklame. '
+          }
+          ],
+        },  
       ]
     }
   }
