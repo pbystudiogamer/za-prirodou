@@ -65,6 +65,7 @@ export default {
       ]
     }
   },
+  
   created() {
     const modules = import.meta.glob("/src/assets/blog/*.{jpg,jpeg,png,webp,avif}", {
       eager: true,
