@@ -57,9 +57,15 @@ export default {
           description: 'Jak se vyhnout nejčastějším chybám jako začínající bushcrafter',
           href: '/blog/02-pet-chyb'
         },
+        {
+          title: 'Výběr vhodného místa pro bushcraft tábor',
+          description: 'Jak na ideální místo pro stavbu přístřešku.',
+          href: '/blog/03-pristresek'
+        },  
       ]
     }
   },
+  
   created() {
     const modules = import.meta.glob("/src/assets/blog/*.{jpg,jpeg,png,webp,avif}", {
       eager: true,
