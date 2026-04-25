@@ -15,7 +15,7 @@
       </div>
     </v-row>
 
-    <v-row>
+    <v-row style="margin-bottom: 50px">
       <v-col
           v-for="item in items"
           :key="item.title" cols="12" md="6" class="d-flex flex-column align-center">
@@ -27,7 +27,7 @@
             @click="go(item.href)"
             role="button"
             tabindex="0"
-            style="cursor: pointer"
+            style="cursor: pointer;"
         >
           <v-img :src="item.image" height="220" cover class="tile-img" position="center 0%" />
           <v-card-title>{{ item.title }}</v-card-title>
