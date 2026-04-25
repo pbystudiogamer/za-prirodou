@@ -60,7 +60,7 @@ export default {
         {
           title: 'Výběr vhodného místa pro bushcraft tábor',
           description: 'Jak na ideální místo pro stavbu přístřešku.',
-          href: '/blog/03-kdePristresek'
+          href: '/blog/03-pristresek'
         },  
       ]
     }
