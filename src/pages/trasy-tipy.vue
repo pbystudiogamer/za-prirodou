@@ -392,7 +392,62 @@ export default {
             description: 'Putování Českou Kanadou nás provedlo přes rozhledny, tajuplné žulové balvany, rybníky i kouzelné lesní louky, a nakonec skončilo překvapením v podobě noci v bunkru. I přes zatažené počasí mělo celé dobrodružství parádní atmosféru a ukázalo, jak krásná a rozmanitá tato oblast je. Pokud hledáte nenáročný, ale zážitkový výlet, Česká Kanada vás nezklame. '
           }
           ],
-        },  
+        },
+        {
+          id: 1,
+          image: vysadek07Image,
+          title: 'Vandr přes prameny Svratky a Sázavy až na Tisůvku',
+          fullTitle: 'Dokonalé lesní Burgry ve Žďárákách',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Vysočina',
+          description: 'Na výlet do oblasti Žďárských vrchů jsme se s Nikčou vydali z obce Cikháj. Naším hlavním plánem pro tento víkend bylo najít a prozkoumat prameny dvou významných českých řek — Svratky a Sázavy.\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Tento den bylo velmi přívětivě, teplota se pohybovala kolem 15 °C. V noci to kleslo na pohodových 8,4 °C. Bylo jasno s lehkým větříkem, což vytvořilo ideální podmínky pro putování zdejší krajinou.\n',
+
+          fullInformation: [
+            {
+              title: 'Vrcholy a prameny, které stojí za to',
+              description: 'Žďárské vrchy jsou charakteristické svými osmistovkami a hlubokými lesy. Mezi nejzajímavější body naší trasy patřil Šindelný vrch a především Tisůvka. Právě Tisůvka je parádní kus skály, na který se dá vylézt a který nabízí moc hezký výhled do okolí. Samotné prameny řek mají každý svou specifickou atmosféru – ten Sázavský nás svou podobou oslovil o něco více.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Fryšavský kopec (803 m) s Patrizánským bunkrem</b>',
+                '<b>Pramen Svratky</b>',
+                '<b>NPR Žákova hora</b>',
+                '<b>Šindelný vrch (806 m)</b>',
+                '<b>Pramen Sázavy</b>',
+                '<b>Tisůvka (800 m)</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Hamaky, testování výbavy a lesní burger',
+              description: 'Cesta nebyla jen o kilometrech, ale i o zkoušení nových věcí. Přímo v korytě Svratky jsem otestoval voděodolné ponožky a po dosažení Šindelného vrchu jsme začali hledat místo pro bivak. Jakmile visely hamaky, přišla na řadu odměna v podobě Cideru a Nikčina vynikajícího lesního burgeru. Večer jsme si zpestřili střelbou z praku a pak už jen ulehli na kutě uprostřed tichého lesa.\n'
+            },
+            {
+              title: 'Druhý den ve znamení pramenů a skal',
+              description: 'Ráno po snídani jsme pokračovali k našemu druhému hlavnímu cíli — prameni Sázavy. Ten nás svou atmosférou nadchl dokonce o něco víc než ten předchozí. Cesta nás dále vedla přes nádherné hluboké lesy, které nás dovedly až k úpatí Tisůvky (800 m). Nikča po cestě stihla prověřit i jeden z místních posedů, než jsme se pustili do finálního stoupání. Výstup na samotný vrchol byl sice docela vyčerpávající, ale ten pocit, když stojíte na skále s parádním výhledem, za tu námahu rozhodně stál. Na úplný závěr jsme se ještě zastavili u Partyzánského památníku, což byla symbolická tečka za celým putováním.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Tento dvoudenní vandr nás provedl nádhernými lesy a prověřil naši fyzičku hlavně při výstupu na Tisůvku, který byl sice vyčerpávající, ale výhled za tu námahu rozhodně stál. Celá trasa od Cikháje až k pramenům a památníkům nabízí krásné prostředí a kousek historie v podobě partyzánských úkrytů. Pokud hledáte klid a čistou přírodu Vysočiny, je tato oblast s přespáním pod širákem (nebo v hamace) sázkou na jistotu.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '21,05 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Lehká' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '488 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '818 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '672 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=urYIE9_ezJo',
+            title: 'Vandr přes prameny Svratky a Sázavy až na Tisůvku',
+            description: 'Slunce, skály a krásné trasy — ideální jarní dobrodružství ve Žďárských vrších.\n '
+          }
+          ],
+        },
       ]
     }
   }
