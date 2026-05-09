@@ -60,6 +60,8 @@ import vysadek03Image from "@/assets/vysadky/03-jeseniky.jpg";
 import vysadek04Image from "@/assets/vysadky/04-jeseniky.jpg";
 import vysadek05Image from "@/assets/vysadky/05-MaleKarpaty.jpg";
 import vysadek06Image from "@/assets/vysadky/06-CK.jpg";
+import vysadek07Image from "@/assets/vysadky/07-vysocina.jpg";
+import vysadek08Image from "@/assets/vysadky/08-sulovske.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
