@@ -168,7 +168,19 @@ export default {
               title: 'Batoh Regatta Blackfell IV 20l',
               description: '',
               href: 'https://www.jdoqocy.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fbatoh-regatta-blackfell-iv-20l%2F%23cerna',
-            },  
+            },
+            {
+              id: 9,
+              title: 'Osprey DAYLITE PLUS 20l',
+              description: '',
+              href: 'https://www.anrdoezrs.net/click-101524204-13592781?url=https%3A%2F%2Fwww.sportisimo.cz%2Fosprey%2Fdaylite-plus%2F449009%2F',
+            },
+            {
+              id: 10,
+              title: 'Sluneční brýle Decathlon',
+              description: '',
+              href: 'https://www.dpbolvw.net/click-101524204-15698594?url=https%3A%2F%2Fwww.decathlon.cz%2Fp%2Fslunecni-bryle-na-horske-kolo-st-100-sedo-modre-kategorie-3%2F_%2FR-p-11798',
+            },
           ]
         },
         {
@@ -298,6 +310,12 @@ export default {
               title: 'Anorak HELIKON Woodsman - BLACK / TAIGA GREEN',
               description: '',
               href: 'https://go.dognet.com/?chid=ZbbXaOiD&url=https%3A%2F%2Fwww.bushcraftshop.cz%2Fanorak-helikon-woodsman-black-taiga-green%2F',
+            },
+            {
+              id: 11,
+              title: 'Alpine Pro Kraťasy 3/4',
+              description: '',
+              href: 'https://www.dpbolvw.net/click-101524204-13592781?url=https%3A%2F%2Fwww.sportisimo.cz%2Falpine-pro%2Fhedac-3-4%2F1512219%2F',
             },
           ]
         }
