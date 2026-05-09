@@ -448,6 +448,62 @@ export default {
           }
           ],
         },
+        {
+          id: 1,
+          image: vysadek08Image,
+          title: 'Súľovské skály',
+          fullTitle: 'Svačina na vrcholu hradní věže',
+          country: 'fi fi-sk',
+          location: 'Slovenská Republika / Strážovské vrchy',
+          description: 'Na výlet do slovenské Národní přírodní rezervace Súľovské skály jsme vyrazili z obce Hričovské Podhradie. Strážovské vrchy nás přivítaly fascinujícími skalními městy a dechberoucími výhledy, které patří k tomu nejlepšímu, co tato oblast nabízí.\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Celý den nás provázelo parádní slunečné a teplé počasí. I když bylo horko a extrémní sucho, což nám trochu zkomplikovalo terén, dodalo slunce skalním útvarům tu správnou atmosféru. Den se v tomto směru povedl na jedničku.\n',
+
+          fullInformation: [
+            {
+              title: 'Skalní brány a útvary, které stojí za to',
+              description: 'Súľovské skály jsou doslova přeplněné přírodními unikáty. Hned na začátku nás ohromil 14 metrů vysoký Hlbocký vodopád. Mezi nejvýraznější body však patří Obrovská brána a ikonická Gotická brána. Tyto monumentální skalní útvary působí až nadpozemsky a jsou jasným důkazem síly přírody, která tyhle tvary po staletí formovala.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Hlbocký vodopád (14 m)</b>',
+                '<b>Obrovskou bránu</b>',
+                '<b>Gotickou bránu</b>',
+                '<b>Zříceninu hradu Súľov</b>',
+                '<b>Štefánikovu vyhlídku</b>',
+                '<b>Zříceninu Hričovského hradu</b>',
+                '<b>Množství nepojmenovaných vyhlídek po hřebeni</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Výzvy na cestě a famózní výhledy',
+              description: 'Trasa nebyla úplně zadarmo. Sestup od Obrovské brány byl kvůli prachu a suchu docela nebezpečný a kluzký, ale soustředěnost se vyplatila. Skutečnou odměnou však byla Štefánikova vyhlídka kus za Súľovem. Nikča tam nejdřív kvůli stoupání nechtěla, ale jakmile viděla fotky, neodolala – a nakonec byla stejně nadšená jako já. Výhled odtud je totiž naprosto famózní a řadím ho k vrcholům celého dne.\n'
+            },
+            {
+              title: 'Historické zastávky na hřebeni',
+              description: 'Kromě přírody jsme prozkoumali i stopy historie. Zřícenina hradu Súľov nám posloužila jako ideální místo pro svačinu; usadili jsme se na jedné z bývalých věží a užívali si panoráma okolní krajiny. Na závěr putování nás čekal Hričovský hrad. I když je momentálně v procesu oprav a lešení trochu kazí dojem z památky, výhledy z něj jsou stále úchvatné a tvoří důstojnou tečku za celým vandrem.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Jeden den v Súľovských skalách, který byl nabitý zážitky od začátku až do konce. Je to lokalita pro všechny milovníky skal, hradů a panoramatických vyhlídek. I když vás občas čeká prudší stoupání nebo kluzký terén, každý metr cesty stojí za to. Pokud hledáte místo, kde se snoubí trocha dobrodružství s neuvěřitelnou estetickou krásou, slovenské Súľovky jsou jasnou volbou. Rozhodně doporučujeme neskončit jen u hradu, ale dojít až na Štefánikovu vyhlídku – neprohloupíte.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '21,65 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Obtížná' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1386 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '741 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '324 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=5SIbrpVDIMU',
+            title: 'Súľovské skály / Svačina na vrcholu hradní věže',
+            description: 'Vydali jsme se prozkoumat krásy slovenských Súľovských skal a byl to jeden z nejlepších výletů!\n '
+          }
+          ],
+        },
       ]
     }
   }
