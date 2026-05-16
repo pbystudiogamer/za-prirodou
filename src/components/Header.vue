@@ -65,8 +65,8 @@
           <v-btn class="nav-link" to="/" active-class="active-link">Úvod</v-btn>
           <v-btn class="nav-link" to="/about">O nás</v-btn>
           <v-btn class="nav-link" to="/bushcraft">Bushcraft</v-btn>
-          <v-btn class="nav-link" to="/trasy-tipy">Trasy & tipy</v-btn>
-          <v-btn class="nav-link" to="/vybava">Moje výbava</v-btn>
+          <v-btn class="nav-link" to="/trasy-tipy">Naše trasy</v-btn>
+          <v-btn class="nav-link" to="/vybava">Výbava</v-btn>
           <v-btn class="nav-link" to="/priroda">Příroda</v-btn>
           <v-btn class="nav-link" to="/recenze">Recenze výbavy</v-btn>
           <v-btn class="nav-link" to="/blog">Blog</v-btn>

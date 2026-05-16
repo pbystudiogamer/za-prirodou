@@ -3,7 +3,7 @@
     <v-row justify="center" style="margin-bottom: 50px">
       <v-col cols="12">
         <h4 class="text-center">
-          Trasy & Tipy
+          Kde všude jsme byli..
         </h4>
       </v-col>
     </v-row>
