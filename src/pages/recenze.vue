@@ -80,6 +80,17 @@ export default {
           videoLink: 'https://www.youtube.com/watch?v=S54KpBHcHPY&pp=2AYB',
         },
         {
+          title: 'Voděodolné ponožky',
+          latinTitle: '',
+          description: '',
+          basicInformation: 'Pokud hledáte spolehlivého parťáka do náročných outdoorových podmínek, nepromokavé ponožky Synaptic Wear jsou trefou do černého. Díky své unikátní třívrstvé konstrukci s prodyšnou membránou udrží vaše nohy v naprostém suchu, ať už chodíte v dešti, mokré trávě, nebo sněhu. Ponožky mají skvěle padnoucí střih do půli lýtek, který spolehlivě drží na svém místě a nikde nepříjemně netlačí ani po celém dni nošení. Velkým plus je efektivní odvod vlhkosti, takže i při aktivním pohybu zůstává chodidlo svěží a v teple. Pro mě osobně jde o naprostý gamechanger, který kompletně mění zážitek z pohybu v nepříznivém počasí a dává zapomenout na nepohodlí v promočených botách.\n' +
+              '\n' +
+              'Jak tyto ponožky obstály v reálném testu a jaké jsou mé bezprostřední dojmy, se můžete podívat v mém Youtube Short videu:',
+          fullInformation: [],
+          videoTitle: 'Voděodolné ponožky - Short recenze',
+          videoLink: 'https://www.youtube.com/shorts/KYSo5eaWCXw',
+        },
+        {
           title: 'Bushcraft pila',
           latinTitle: '',
           description: '',
