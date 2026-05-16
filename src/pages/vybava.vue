@@ -317,6 +317,12 @@ export default {
               description: '',
               href: 'https://www.dpbolvw.net/click-101524204-13592781?url=https%3A%2F%2Fwww.sportisimo.cz%2Falpine-pro%2Fhedac-3-4%2F1512219%2F',
             },
+            {
+              id: 12,
+              title: 'Warg Endurance Merino',
+              description: '',
+              href: 'https://www.kqzyfj.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fponozky-warg-endurance-merino%2F',
+            },
           ]
         }
       ]
