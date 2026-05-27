@@ -201,7 +201,7 @@ export default {
 .full :deep(li){
   margin: 6px 0;
 }
-.full{ margin-top: 12px; }
+.full{ margin-top: 50px; }
 
 .full-section {
   margin-bottom: 30px;
