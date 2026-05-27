@@ -103,6 +103,16 @@ export default {
           videoLink: 'https://www.youtube.com/watch?v=PMHqVtp-XEY',
         },
         {
+          title: 'Fenix Dobíjecí čelovka HL12R V2.0',
+          latinTitle: '',
+          description: '',
+          basicInformation: 'Dobíjecí čelovka Fenix HL12R V2.0 ve stylovém fialovém provedení představuje špičkové řešení pro každého, kdo hledá spolehlivý zdroj světla a nechce s sebou tahat zbytečnou váhu. S hmotností pouhých 72,5 gramů na hlavě téměř nevíte, že ji máte, což z ní dělá ideálního parťáka pro noční běh, trailové výšlapy nebo kempování. Navzdory svým miniaturním rozměrům však dokáže ze své hlavní LED diody Luminus vytisknout úctyhodný výkon až 500 lumenů s dosvitem do vzdálenosti 125 metrů. Konstrukce kombinuje leteckou slitinu hliníku a odolný plast, přičemž splňuje certifikaci IP66 – bez problému tak ustojí silný slevák, prach i pád z metrové výšky. Třešničkou na dortu je promyšlený popruh, který je vybaven reflexními prvky pro vyšší bezpečnost a vnitřním silikonovým proužkem, díky němuž čelovka perfektně drží a nesklouzává z čela ani při prudkých pohybech.' +
+              ' Uživatelský komfort posouvá na vysokou úroveň také integrovaný Li-pol akumulátor s kapacitou 950 mAh, který se pohodlně dobíjí prostřednictvím moderního USB-C konektoru. Čelovka nabízí celkem šest režimů svícení rozdělených mezi dva samostatné spínače, takže ovládání je maximálně intuitivní. Vedle čtyř intenzit bílého světla (od úsporného 5lumenového režimu s výdrží až 112 hodin pro čtení ve stanu) nechybí ani červená LED dioda se stálým svícením a blikáním, která je neocenitelná pro noční rybaření či zachování přirozené adaptace očí na tmu. Díky čtyřdílnému indikátoru stavu baterie máte vždy dokonalý přehled o tom, kolik energie vám ještě zbývá. Hledáte-li spolehlivou, lehkou a pohlednou čelovku, která vás nenechá ve štychu v dílně ani v divočině, Fenix HL12R V2.0 je trefou do černého.',
+          fullInformation: [],
+          videoTitle: 'Testováno Nikčou / Čelovka Fenix HL12R',
+          videoLink: 'https://www.youtube.com/watch?v=goLBN6TgJ3I&t',
+        },
+        {
           title: 'Bushcraft pila',
           latinTitle: '',
           description: '',
