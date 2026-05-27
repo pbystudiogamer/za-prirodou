@@ -91,6 +91,18 @@ export default {
           videoLink: 'https://www.youtube.com/shorts/KYSo5eaWCXw',
         },
         {
+          title: 'PRABOS Greyman High',
+          latinTitle: '',
+          description: '',
+          basicInformation: 'Prabos Greyman High Loamy Brown: Ultimátní parťák do terénu i pro městský styl\n' +
+              'Česká vlajková loď Prabos Greyman High v atraktivním zemitě hnědém provedení (loamy brown) představuje skvělý hybrid mezi vysoce odolnou taktickou obuví a pohodlnou outdoorovou botou na každodenní nošení. Svršek je vyroben z prémiové hydrofobní lícové usně, která vyniká dlouhou životností a snadnou údržbou. Největší zbraní této celokožené verze je však absence membrány. Díky podšívce Coolmax bota extrémně rychle odvádí vlhkost a perfektně dýchá, což oceníte zejména během teplých letních měsíců a při dynamickém pohybu. Absence membrány přitom neznamená, že hned promoknete – kvalitní kůže a chytře všitý jazyk bez problému odolají ranní rose i vytrvalejšímu dešti.\n' +
+              '\n' +
+              'Hlavním technologickým tahákem je nově vyvinutá podešev Freerunner. Ta využívá pryžovou směs o dvou různých hustotách, díky čemuž je bota až o 50 % lehčí než běžná konkurence v této kategorii a váží pouhých 600 gramů. Skvěle tlumí nárazy na tvrdém městském asfaltu, ale její pravá síla se ukáže v náročném lesním a skalnatém terénu, kde drží špičkovou protiskluzovou trakci. Bezpečnost navíc jistí integrovaná planžeta ZeroFear 2.0, která spolehlivě ochrání chodidlo před propíchnutím o hřebíky či ostré střepy. Pokud hledáte lehkou, odolnou a vizuálně povedenou botu české výroby, se kterou můžete jít s trochou nadsázky rovnou ze střelnice či bushcraftového vandru do kavárny, Greyman High v hnědé kůži je sázkou na jistotu.',
+          fullInformation: [],
+          videoTitle: 'Prabos Greyman High: Lepší BEZ membrány?',
+          videoLink: 'https://www.youtube.com/watch?v=PMHqVtp-XEY',
+        },
+        {
           title: 'Bushcraft pila',
           latinTitle: '',
           description: '',
