@@ -62,6 +62,7 @@ import vysadek05Image from "@/assets/vysadky/05-MaleKarpaty.jpg";
 import vysadek06Image from "@/assets/vysadky/06-CK.jpg";
 import vysadek07Image from "@/assets/vysadky/07-vysocina.jpg";
 import vysadek08Image from "@/assets/vysadky/08-sulovske.jpg";
+import vysadek09Image from "@/assets/vysadky/09-strazov.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -503,6 +504,62 @@ export default {
             href: 'https://www.youtube.com/watch?v=5SIbrpVDIMU',
             title: 'Súľovské skály / Svačina na vrcholu hradní věže',
             description: 'Vydali jsme se prozkoumat krásy slovenských Súľovských skal a byl to jeden z nejlepších výletů!\n '
+          }
+          ],
+        },
+        {
+          id: 1,
+          image: vysadek09Image,
+          title: 'Na nejvyšší vrchol Strážovských vrchů',
+          fullTitle: 'Přes Sokolie a vodopády až na vrchol',
+          country: 'fi fi-sk',
+          location: 'Slovenská Republika / Strážovské vrchy',
+          description: 'Na výlet do slovenské Národní přírodní rezervace Strážov jsme vyrazili z malé vesničky Priedhorie. Strážovské vrchy nás přivítaly hlubokými lesy, skrytými jeskyněmi a dechberoucími výhledy, které patří k tomu nejlepšímu, co tato drsná horská oblast nabízí. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Celý den nás provázelo parádní slunečné počasí, které s sebou ale přineslo fascinující hru kontrastů. Zatímco dole v údolí bylo plné, sytě zelené jaro, se stoupající nadmořskou výškou se příroda teprve probouzela. Od půlky kopců už byly stromy zcela bez listí a nahoře na nás dýchal ještě počátek jara. Den se v tomto směru povedl na jedničku.\n',
+
+          fullInformation: [
+            {
+              title: 'Ticho, slunce a prudká stoupání',
+              description: 'NPR Strážov je doslova přeplněná přírodními unikáty. Hned na začátku nás ohromila kouzelná jeskyně Babirátka schovaná v lesním porostu. Mezi nejvýraznější body však patří Horný Strážovský vodopád a monumentální skalní masivy, které se tyčí po obou stranách cesty v závěru trasy za Červíkovou chatou. Tyto skalní útvary působí úchvatně a jsou jasným důkazem síly přírody.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Jeskyni Babirátka</b>',
+                '<b>Vrchol Sokolie (1032 m)</b>',
+                '<b>Chatu Červíková (600 m)</b>',
+                '<b>Horný Strážovský vodopád (863 m)</b>',
+                '<b>Skalní vyhlídku nad vodopádem</b>',
+                '<b>Pohádkovou horskou louku s výhledem na Tatry</b>',
+                '<b>Vrchol Strážov (1213 m)</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Výzvy na cestě a famózní výhledy',
+              description: 'Trasa nebyla úplně zadarmo. Hned na začátku jsme jako vždy lehce sešli z trasy a mimo značenou cestu se vydali doslova vzhůru k nebesům – jinak se toto strmé stoupání na Sokolie ani nazvat nedalo. Náročné bylo i prudké a klikaté klesání v suchém listí a prachu k chatě Červíková, kde se soustředěnost opravdu vyplatila. Skutečnou odměnou však byla horská louka těsně pod vrcholem Strážova. Výhled odtud až na zasněžené vrcholky vzdálených Tater je totiž naprosto famózní a řadím ho k vrcholům celého dne. Ideální místo pro relaxaci.\n'
+            },
+            {
+              title: 'Historické a vrcholové zastávky na hřebeni',
+              description: 'Kromě divoké přírody jsme zdolali i samotný vrchol Strážov (1213 m n. m.). Tento nejvyšší bod celého pohoří nám posloužil jako ideální místo pro svačinu; usadili jsme se nahoře a užívali si kruhové panoráma okolní krajiny. Na závěr putování nás čekal sestup kolem Strážovského potoka a již zmíněných monumentálních skal, které tvořily důstojnou a vizuálně nádhernou tečku za celým vandrem.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Jeden den v NPR Strážov, který byl nabitý zážitky od začátku až do konce. Je to lokalita pro všechny milovníky jeskyní, divokých vodopádů a panoramatických vyhlídek. I když vás občas čeká prudší stoupání mimo značku nebo kluzký terén plný prachu, každý metr cesty stojí za to. Pokud hledáte místo, kde se snoubí trocha dobrodružství s neuvěřitelnou estetickou krásou, slovenské Strážovské vrchy jsou jasnou volbou. Rozhodně doporučujeme neskončit jen v údolí, ale vystoupat až na samotný vrchol Strážov – neprohloupíte.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '19,01 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Náročná' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1365 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1214 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '415 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=eOF3ADgH8qc&t',
+            title: 'Toulky Strážovskými vrchy',
+            description: 'Přes Sokolie a vodopády až na vrchol\n '
           }
           ],
         },
