@@ -33,6 +33,7 @@ import HerbCard from "@/components/HerbCard.vue";
 import jaternikImage from "@/assets/rostliny/01-jaternik.jpg";
 import habrImage from "@/assets/rostliny/02-habr.jpg";
 import kridlatkaImage from "@/assets/rostliny/03-kridlatka.jpg";
+import akatImage from "@/assets/rostliny/04-akat.jpg";
 
 export default {
   components: { HerbCard },
@@ -126,7 +127,38 @@ export default {
           ],
           videoTitle: "Odkaz na video",
           videoLink: "https://www.youtube.com/watch?v=62lCDomGhK4\n",
-        },  
+        },
+        {
+          image: akatImage,
+          title: "Trnovník akát",
+          latinTitle: "(Robinia pseudoacacia)",
+          description: "Statný a odolný strom našich lesů, ceněný pro tvrdé dřevo a schopnost vytvářet husté, přirozené porosty.",
+          basicInformation:
+              "<strong>Taxonomie</strong><br>"+
+              "<ul>" +
+              "<li><b>Říše:</b> Plantae</li>" +
+              "<li><b>Třída:</b> Magnoliopsida</li>" +
+              "<li><b>Řád:</b> Fabales (bobotvaré)</li>" +
+              "<li><b>Čeleď:</b> Fabaceae (bobovité)</li>" +
+              "<li><b>Rod:</b> Robinia (akát)</li>" +
+              "<li><b>Druh:</b> Robinia pseudoacacia</li>" +
+              "</ul> <br>",
+          fullInformation: [
+            {
+              title: "",
+              points: [
+                "Trnovník akát je jednou z nejrozšířenějších a zároveň nejkontroverznějších dřevin současné Evropy. Do české krajiny byl zavlečen v 18. století jako okrasná, medonosná a půdopevná dřevina, avšak díky své mimořádné vitalitě, odolnosti a schopnosti měnit chemické složení půdy se stal vážným ekologickým problémem. Tato práce shrnuje jeho základní botanické vlastnosti, ekologické dopady, zajímavosti, léčivé účinky i možnosti využití.",
+                "Akát patří do čeledi bobovitých (Fabaceae). Dorůstá výšky 15–25 metrů a vytváří nepravidelné, často malebně pokroucené koruny s hluboce rýhovanou borkou. Listy jsou lichozpeřené, složené z oválných lístků, a na bázi řapíků nesou ostré trny (přeměněné palisty). Květy jsou bílé, silně vonné, uspořádané v převislých hroznech a rozkvétají na přelomu května a června. Rostlina se šíří jak semeny (v plochých luscích), tak extrémně agresivně pomocí kořenových výmlatků. Díky symbióze s hlízkovými bakteriemi dokáže vázat vzdušný dusík, což mu umožňuje prosperovat i na nejchudších, suchých a písčitých půdách.",
+                "Z ekologického hlediska má trnovník akát výrazně negativní vliv na původní ekosystémy. Do půdy vylučuje toxické látky (tzv. alelopatie), které spolu s nadbytkem dusíku decimují původní rostlinná společenstva a mění mikroklima stanoviště. Vytváří husté monokultury, pod kterými nedokáže růst téměř žádný jiný domácí druh kromě bezu černého a kopřiv, což drasticky snižuje lokální biodiverzitu. Na skalních stepích a chráněných vápencových svazích působí doslova spoušť. Likvidace akátu je nesmírně náročná, protože po pouhém pokácení reaguje masivní tvorbou stovek nových kořenových výmlatků, a vyžaduje proto specifické kombinované či chemické postupy (např. metodu injektáže).",
+                "Ačkoli je akát vnímán jako nebezpečný invazní strom, má i své velmi ceněné vlastnosti. V tradičním léčitelství se využívá jeho květ (Flos robiniae), který jako jediná část stromu není toxický (kůra, listy i semena obsahují jedovaté toxalbuminy robin a fasin). Květy obsahují flavonoidy a esenciální oleje, mají močopudné účinky, podporují vylučování žluči a užívají se ke zmírnění žaludečních křečí. Účinky jsou jemné, ale v lidové medicíně dobře známé. Květy jsou navíc jedlé a v některých oblastech se obalují v těstíčku a smaží jako delikatesa.",
+                "Dřevo akátu má obrovský hospodářský význam. Je to naše nejtvrdší, nejtěžší a nejodolnější dřevo, které fantasticky odolává hnilobě, vlhkosti i hmyzu, a to i bez chemické impregnace. Používá se na stavbu plotů, dětských hřišť, viničních kůlů, zahradního nábytku či teras. Mimo to je akát excelentním palivem s vysokou výhřevností a jednou z nejvýznamnějších medonosných dřevin – akátový med je vysoce ceněný pro svou světlou barvu, jemnou chuť a skutečnost, že téměř necukernatí.",
+                "Trnovník akát je tedy strom s obrovským ekologickým dopadem, ale zároveň s mimořádnými praktickými vlastnostmi a hospodářským využitím. Jeho nezvladatelná touha ovládnout prostor z něj činí hrozbu pro chráněná území, která vyžaduje přísný management. Zároveň však v hospodářských lesích a včelařství představuje neocenitelnou surovinu, jejíž kvality nemají mezi evropskými dřevinami konkurenci."
+              ],
+            },
+          ],
+          videoTitle: "Odkaz na video, kde se dozvíte více",
+          videoLink: "https://www.youtube.com/watch?v=4GJSjsVKkVc&t\n",
+        },
       ],
     };
   },
