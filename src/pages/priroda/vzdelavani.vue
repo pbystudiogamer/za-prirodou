@@ -105,7 +105,16 @@ export default {
             description: "",
             href: "https://www.youtube.com/watch?v=g6E_0hB_5Pc&pp=2AYB",
           }
-        }
+        },
+        {
+          title: "Sekvojový lesopark",
+          description: "Kousek za Brnem se ukrývá nádherný sekvojový lesopark plný tajemných zákoutí, který rozhodně stojí za návštěvu. V tomto videu vás tam vezmu na prohlídku s průvodcem, díky kterému zjistíte, že les není jen tichým souborem kmenů, ale fascinujícím živým organismem.",
+          videoItem: {
+            title: "O Sekvojovcích",
+            description: "",
+            href: "https://www.youtube.com/watch?v=RziSD9M_wCw",
+          }
+        },
       ]
     }
   },
