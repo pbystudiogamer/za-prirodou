@@ -83,7 +83,7 @@ export default {
           title: "Poznávačka Jehličnanů",
           description: "Co si takhle vyzkoušet, zda poznáte některé z našich běžně rozšířených druhů jehličnatých stromů? :-) Nebojte, nebudou to nijak zvláště těžké druhy k určení (až na 4 výjimky :-) ) a se všemi se můžeme v našich lesích potkat :-) Každý si to může vyzkoušet a kdo nebude chtít, tak se alespoň může podívat na to, co u nás všechno roste :-)",
           videoItem: {
-            title: "Poznávačka Jehličnanů",
+            title: "Poznejte 11 druhů jehličnanů",
             description: "",
             href: " https://www.youtube.com/watch?v=6o1TNVGPnX0&pp=2AYD",
           }
@@ -113,6 +113,15 @@ export default {
             title: "O Sekvojovcích",
             description: "",
             href: "https://www.youtube.com/watch?v=RziSD9M_wCw",
+          }
+        },
+        {
+          title: "Poznávačka listnatých stromů",
+          description: "Co si takhle po delší době vyzkoušet, zda poznáte některé z našich běžně rozšířených druhů listnatých stromů? :-) Pro zdatnější determinátory mám na konec i několik méně známých druhů :-) Každý si to může vyzkoušet a kdo nebude chtít, tak se alespoň může podívat na to, co u nás všechno roste :-)",
+          videoItem: {
+            title: "Poznejte 25 druhů listnáčů",
+            description: "",
+            href: "https://www.youtube.com/watch?v=HsSMggVVL7g&t",
           }
         },
       ]
