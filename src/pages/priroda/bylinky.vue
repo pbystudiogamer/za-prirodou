@@ -34,6 +34,7 @@ import jaternikImage from "@/assets/rostliny/01-jaternik.jpg";
 import habrImage from "@/assets/rostliny/02-habr.jpg";
 import kridlatkaImage from "@/assets/rostliny/03-kridlatka.jpg";
 import akatImage from "@/assets/rostliny/04-akat.jpg";
+import kycelniceImage from "@/assets/rostliny/05-kycelnice.jpg";
 
 export default {
   components: { HerbCard },
@@ -158,6 +159,37 @@ export default {
           ],
           videoTitle: "Odkaz na video, kde se dozvíte více",
           videoLink: "https://www.youtube.com/watch?v=4GJSjsVKkVc&t\n",
+        },
+        {
+          image: kycelniceImage,
+          title: "Kyčelnice cibulkonosná",
+          latinTitle: "(Dentaria bulbifera)",
+          description: "Statný a odolný strom našich lesů, ceněný pro tvrdé dřevo a schopnost vytvářet husté, přirozené porosty.",
+          basicInformation:
+              "<strong>Taxonomie</strong><br>"+
+              "<ul>" +
+              "<li><b>Říše:</b> Plantae</li>" +
+              "<li><b>Třída:</b> Magnoliopsida</li>" +
+              "<li><b>Řád:</b> Brassicales (brukvotvaré)</li>" +
+              "<li><b>Čeleď:</b> Brassicaceae (brukvovité)</li>" +
+              "<li><b>Rod:</b> Cardamine (kyčelnice / řeřišnice)</li>" +
+              "<li><b>Druh:</b> Dentaria bulbifera (kyčelnice cibulkonosná)</li>" +
+              "</ul> <br>",
+          fullInformation: [
+            {
+              title: "",
+              points: [
+                "Kyčelnice cibulkonosná je jednou z nejzajímavějších a esteticky nejpůsobivějších lesních bylin našich listnatých lesů. V české přírodě je původním druhem, který na rozdíl od invazních rostlin nepředstavuje ekologickou hrozbu, ale naopak je indikátorem zachovalých a druhově bohatých ekosystémů, zejména bučin. Tato práce shrnuje její základní botanické vlastnosti, unikátní způsob rozmnožování, ekologický význam, zajímavosti i její roli v přírodním léčitelství.",
+                "Rostlina patří do čeledi brukvovitých (Brassicaceae). Je to vytrvalá bylina dorůstající výšky 30–60 centimetrů, která vyrůstá z plazivého, šupinatého oddenku. Listy jsou střídavé, v dolní části lodyhy zpeřené, v horní části pak jednodušší a kopinaté. Květy jsou poměrně velké, čtyřčetné, mají světle fialovou až narůžovělou barvu a jsou uspořádány v hroznovitém květenství. Kyčelnice rozkvétá od dubna do června. Nejvýraznějším znakem tohoto druhu jsou však tmavě fialové až černé lesklé pacibulky (bulby), které se tvoří v úžlabí horních listů a daly rostlině její druhové jméno.",
+                "Z ekologického hlediska je kyčelnice cibulkonosná typickým představitelem tzv. jarního aspektu listnatých lesů. Vyhledává stinná až polostinná stanoviště s vlhkou, humózní půdou bohatou na živiny, nejčastěji v květnatých bučinách, suťových lesích či dubohrabinách. Na rozdíl od agresivních druhů žije v dokonalé rovnováze s okolní vegetací a přispívá ke stabilitě lesního podrostu. Její existence je však přímo závislá na zdraví lesních komplexů – plošné kácení bučin a jejich přeměna na smrkové monokultury vedou k rychlému mizení tohoto druhu z krajiny. Ochranářský management se proto soustředí na zachování přirozené druhové skladby našich lesů.",
+                "Ačkoli nepatří mezi obecně známé průmyslové rostliny, skrývá v sobě kyčelnice cibulkonosná fascinující biologické mechanismy a potenciál pro tradiční využití. Její hlavní zajímavostí je právě zmíněná tvorba pacibulek. Ty slouží k vegetativnímu rozmnožování: v létě opadají na zem, zakoření a vyrostou z nich noví jedinci, což rostlině kompenzuje fakt, že její semena dozrávají jen zřídka. V minulosti se tyto pacibulky v dobách nouze sbíraly jako potrava, mají totiž jemně pálivou, ředkvičkovou chuť. V lidovém léčitelství se v omezené míře využíval sušený oddenek, který obsahuje hořčičné glykosidy a má mírné močopudné účinky a schopnost tlumit křeče, dnes se však z důvodu ochrany přírody již nesbírá.",
+                "Význam kyčelnice je v současnosti primárně estetický, vědecký a krajinotvorný. Pro lesníky a paleobotaniky slouží jako spolehlivý indikátor starých, kontinuálně existujících lesních porostů, které nebyly v minulosti zdevastovány zemědělstvím. V zahradní architektuře nachází své místo jako atraktivní stínomilná trvalka (tzv. hajnička), ideální podrost pod vzrostlé stromy v přírodně koncipovaných zahradách a parcích. Její schopnost pokrýt jarní lesní půdu kobercem jemných fialových květů z ní činí vizuální klenot naší jarní přírody.",
+                "Kyčelnice cibulkonosná je tedy rostlinou s hlubokou vazbou na původní evropské lesy, která vyniká svou křehkou krásou i netradiční biologií. Její přítomnost v krajině je symbolem ekologické rovnováhy a zdravého životního prostředí. Ochrana jejích přirozených stanovišť je klíčem k tomu, aby tato svébytná součást české flóry zůstala zachována i pro příští generace."
+              ],
+            },
+          ],
+          videoTitle: "Odkaz na video, kde se dozvíte více",
+          videoLink: "https://www.youtube.com/watch?v=KAGuINWFOv0\n",
         },
       ],
     };
