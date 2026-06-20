@@ -63,6 +63,7 @@ import vysadek06Image from "@/assets/vysadky/06-CK.jpg";
 import vysadek07Image from "@/assets/vysadky/07-vysocina.jpg";
 import vysadek08Image from "@/assets/vysadky/08-sulovske.jpg";
 import vysadek09Image from "@/assets/vysadky/09-strazov.jpg";
+import vysadek10Image from "@/assets/vysadky/10-luhacovice.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -468,7 +469,7 @@ export default {
               description: 'Súľovské skály jsou doslova přeplněné přírodními unikáty. Hned na začátku nás ohromil 14 metrů vysoký Hlbocký vodopád. Mezi nejvýraznější body však patří Obrovská brána a ikonická Gotická brána. Tyto monumentální skalní útvary působí až nadpozemsky a jsou jasným důkazem síly přírody, která tyhle tvary po staletí formovala.\n' +
                   '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
               points: [
-                '<b>Hlbocký vodopád (14 m)</b>',
+                '<b>Hlbocký vodopád (výška vodopádu 14 m)</b>',
                 '<b>Obrovskou bránu</b>',
                 '<b>Gotickou bránu</b>',
                 '<b>Zříceninu hradu Súľov</b>',
@@ -560,6 +561,62 @@ export default {
             href: 'https://www.youtube.com/watch?v=eOF3ADgH8qc&t',
             title: 'Toulky Strážovskými vrchy',
             description: 'Přes Sokolie a vodopády až na vrchol\n '
+          }
+          ],
+        },
+        {
+          id: 1,
+          image: vysadek10Image,
+          title: 'Vizovická vrchovina',
+          fullTitle: 'Spousta hezkých výhledů',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Valašsko',
+          description: 'Na dvoudenní vandr do Vizovické vrchoviny jsme vyrazili z klidné obce Pozlovice. Kopce nad Luhačovicemi nás přivítaly nádhernou hřebenovou trasou, skrytými lesními zajímavostmi a dechberoucími výhledy, které patří k tomu nejlepšímu, co tato malebná moravská oblast nabízí.\n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Zpočátku nás provázelo velmi proměnlivé počasí a hned několikrát nám na chvíli lehce sprchlo. Nicméně ke konci prvního dne se mraky protrhaly a ukázalo se sluníčko, které s námi vydrželo až do samotného závěru dne druhého. Noc v hamakách byla svěží, teplota klesla na 13,4 stupně, ale v doprovodu intenzivního ptačího koncertu to byla naprostá pohoda.\n',
+
+          fullInformation: [
+            {
+              title: 'Ticho, zpěv ptáků, slunce a výhledy do dálky',
+              description: 'SVizovická vrchovina je doslova přeplněná kouzelnými místy. Hned první den nás díky skvělé viditelnosti ohromila spousta dalekých výhledů. Mezi nejvýraznější body patřil vrchol Komonec, kde jsme zkontrolovali tamní lesní bar a trochu se odreagovali na houpačce. Skutečným klenotem trasy je však vrchol Bába s posezením a ukrytou šachovnicí. Na závěr dne nás pak nadchla návštěva nedalekého skalního útvaru Mlčačky.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Vrchol Komonec (672 m) s lesním barem a houpačkou</b>',
+                '<b>Vrchol Bába (636 m) s lesním šachovým stolkem</b>',
+                '<b>Skalní útvar Mlčačky (451 m)</b>',
+                '<b>Zříceninu hradu Starý Světlov (605 m)</b>',
+                '<b>Lesní studánku Sojsínka (535 m)</b>',
+                '<b>Naučnou stezku Ekopark Starý Světlov</b>',
+                '<b>Minerální pramen Studánka Sirčena (374 m)</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Výzvy na cestě a nečekané změny',
+              description: 'Trasa nebyla úplně zadarmo a občas nás donutila improvizovat. Původně jsme plánovali přespat na stejném místě jako minulý rok, ale realita nás překvapila – prostor byl čerstvě vykácený a zem pokrytá hromadou větví. Museli jsme se proto posunout o kousek dál, kde jsme nakonec úspěšně natáhli hamaky a připravili zaslouženou večeři. Skutečnou odměnou za celodenní chůzi byl pak večerní relax v síti za neutichajícího zpěvu ptáků, což řadím k vrcholům celého dne.\n'
+            },
+            {
+              title: 'Historické a zážitkové zastávky na hřebeni',
+              description: 'Druhý den ráno jsme odstartovali kávou a snídaní šampionů, po které nás čekala cesta zpět přes zříceninu hradu Starý Světlov, která se postupně a velmi pěkně opravuje. Následný sestup dolů vedl kolem studánky Sojsínka až na luxusní naučnou stezku Ekopark Starý Světlov. Ta je plná originálních dřevěných figurek zvířat a herních prvků, takže ji vřele doporučujeme i rodinám s dětmi. Na úplný závěr putování jsme ochutnali minerální pramen Sirčena – jeho silně sirná voda je však zážitkem jen pro opravdu silné povahy.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Víkend ve Vizovické vrchovině, který byl nabitý zážitky od začátku až do konce. Je to lokalita pro všechny milovníky dalekých výhledů, pohody v hamakách a čisté, klidné přírody. I když vás občas potká přeháňka nebo musíte narychlo měnit místo na spaní, každý metr cesty stojí za to. Pokud hledáte místo, kde se snoubí trocha dobrodružství s relaxací a zajímavými zastávkami, kopce nad Luhačovicemi jsou jasnou volbou. Rozhodně doporučujeme neskončit jen ve městě u kolonády, ale vystoupat na okolní hřebeny – neprohloupíte.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '12,65 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Lehká' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '556 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '680 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '340 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=9zp-ScmExCM&t',
+            title: 'Vandr nad Luhačovicemi: Od proměnlivého počasí 🌦️ až po luxusní Ekopark 🌳',
+            description: 'Vyráželi jsme z Pozlovic po červené turistické značce směrem do kopců nad Luhačovicemi.☀️\n '
           }
           ],
         },
