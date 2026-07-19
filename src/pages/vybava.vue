@@ -112,7 +112,13 @@ export default {
               title: 'Mlýnek na kávu',
               description: '',
               href: 'https://s.click.aliexpress.com/e/_c404mEK5',
-            }  
+            },
+            {
+              id: 11,
+              title: 'Vařič Warg Flametower',
+              description: '',
+              href: 'https://www.kqzyfj.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fvaric-warg-flametower%2F%23modra',
+            },
           ]
         },
         {

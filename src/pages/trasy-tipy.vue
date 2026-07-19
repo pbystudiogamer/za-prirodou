@@ -63,7 +63,8 @@ import vysadek06Image from "@/assets/vysadky/06-CK.jpg";
 import vysadek07Image from "@/assets/vysadky/07-vysocina.jpg";
 import vysadek08Image from "@/assets/vysadky/08-sulovske.jpg";
 import vysadek09Image from "@/assets/vysadky/09-strazov.jpg";
-import vysadek10Image from "@/assets/vysadky/10-luhacovice.jpg";
+import vysadek10Image from "@/assets/vysadky/10-oslavka.jpg";
+import vysadek11Image from "@/assets/vysadky/11-luhacovice.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -567,6 +568,64 @@ export default {
         {
           id: 1,
           image: vysadek10Image,
+          title: 'Divoká Oslava v 38 °C ☀️',
+          fullTitle: 'Do NPR Divoká Oslava za extrémním letním žárem',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Vysočina',
+          description: 'Na víkendový výsadek do hlubokého kaňonu řeky Oslavy jsme vyrazili z obce Sedlec. Vyhlídky na nekonečné obzory, divoká údolí a historické zříceniny nás přivítaly v plném letním proudu. NPR Divoká Oslava ukázala svou drsnou, ale nádhernou tvář, která prověřila naši připravenost na extrémní teploty. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Celý víkend nás provázelo neúprosné slunečné počasí a tropické teploty, které atakovaly hranici 38 stupňů ve stínu. Tento extrém zásadně ovlivnil celou naši taktiku – tentokrát jsme vůbec nevařili a vsadili na předem připravené zásoby z domova. Ani noční pokles teploty na 25 stupňů nám však nezabránil v tom, abychom se v srdci přírody skvěle vyspali a nabrali síly na další den.\n',
+
+          fullInformation: [
+            {
+              title: 'Vyhlídky, vodopády a lovecký zámeček',
+              description: 'Tato lokalita je doslova přeplněná přírodními a historickými unikáty. Hned po prvním kilometru nás okouzlilo rozcestí U Glorietu s dechberoucí Vyhlídkou na nekonečno, odkud se o kousek dál tyčí nádherný novogotický altán Gloriet z let 1829–1830. Výjimečným místem byly také Vodopády Na Kotlíku, které nám posloužily jako klíčový bod pro doplnění vody, a empirový lovecký zámeček na Vlčím kopci.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Vyhlídku na nekonečno (420 m n. m.)</b>',
+                '<b>Novogotický altán Gloriet (422 m n. m.)</b>',
+                '<b>Skalní útvar Jinošovice s výhledem na Oslavku</b>',
+                '<b>Vodopády Na Kotlíku – doplnění vody</b>',
+                '<b>Lovecký zámeček Vlčí kopec (400 m n. m.)</b>',
+                '<b>Senoradský mlýn (268 m n. m.)</b>',
+                '<b>Vyhlídku nad rozcestím Pod Pastýřkou (339 m n. m.)</b>',
+                '<b>Zříceninu hradu Lamberk (329 m n. m.)</b>',
+                '<b>Zříceninu Sedleckého hradu se třemi kříži (352 m n. m.)</b>',
+
+              ],
+              footer: 'Míst, která stojí za návštěvu, je v této lokalitě nepřeberné množství.'
+            },
+            {
+              title: 'Výzvy na trase a stíhací jízda kaňonem',
+              description: 'Trasa v tomto horku nebyla vůbec zadarmo. První den končil stíhací jízdou až na mé oblíbené a pravidelně navštěvované místo na spaní, kterému říkám „Balkónek“. Druhý den ráno jsme po sbalení ležení doslova seběhli k Senoradskému mlýnu a podél toku řeky zahájili další rychlý přesun proti proudu po červené turistické značce skrz chatovou oblast a obávané „Údolí žízně“, kde nás naštěstí zachránily dvě funkční pumpy.\n'
+            },
+            {
+              title: 'Historické zastávky a brodění divoké řeky',
+              description: 'Kromě skalních vyhlídek a kamenných moří jsme objevovali i stopy historie. Monumentální zřícenina hradu Lamberk nám nabídla několik úchvatných výhledů do údolí. Odtud jsme sestoupili přímo k hladině Oslavky, kterou jsme bez větších obtíží přebrodili na druhý břeh. Kvůli spalujícímu žáru kolem 38 stupňů jsme sice vynechali samotnou prohlídku zříceniny Sedleckého hradu a prohlédli si jen jeho vztyčené tři kříže opředené pověstí, ale závěrečné „smrtelné“ stoupání zpět k Vyhlídce na nekonečno vytvořilo za celým vandrem opravdu důstojnou a fyzicky náročnou tečku.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Víkendový výsadek v NPR Divoká Oslava byl nabitý zážitky od začátku až do konce. Je to lokalita pro všechny milovníky divokých říčních údolí, skalních vyhlídek a historie skryté v lesích. I když vás v létě prověří extrémní teploty, náročné profily tratě nebo strmá stoupání na závěr, každý metr cesty stojí za to. Pokud hledáte místo, kde se snoubí trocha dobrodružství s estetickou krásou moravské přírody, údolí Oslavy je jasnou volbou. Rozhodně doporučuji toto magické místo navštívit také na podzim, kdy celá rezervace hraje neuvěřitelnými barvami.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '21,75 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'lehká' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '536 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '440 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '280 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=Z52UZIqXp2g',
+            title: 'Kolem Oslavky v extrémním horku',
+            description: 'Závěrem přes Údolí velké žízně\n '
+          }
+          ],
+        },
+        {
+          id: 1,
+          image: vysadek11Image,
           title: 'Vizovická vrchovina',
           fullTitle: 'Spousta hezkých výhledů',
           country: 'fi fi-cz',
