@@ -119,6 +119,12 @@ export default {
               description: '',
               href: 'https://www.kqzyfj.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fvaric-warg-flametower%2F%23modra',
             },
+            {
+              id: 12,
+              title: 'Warg Fold Kettle 1l',
+              description: '',
+              href: 'https://www.jdoqocy.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fkonvice-warg-fold-kettle-1l%2F%23tmave-zelena',
+            },
           ]
         },
         {
@@ -186,6 +192,12 @@ export default {
               title: 'Sluneční brýle Decathlon',
               description: '',
               href: 'https://www.dpbolvw.net/click-101524204-15698594?url=https%3A%2F%2Fwww.decathlon.cz%2Fp%2Fslunecni-bryle-na-horske-kolo-st-100-sedo-modre-kategorie-3%2F_%2FR-p-11798',
+            },
+            {
+              id: 11,
+              title: 'Outdoor nůž Morakniv 2000',
+              description: '',
+              href: 'https://go.dognet.com/?chid=ZbbXaOiD&url=https%3A%2F%2Fwww.bushcraftshop.cz%2Fnuz-morakniv-2000%2F',
             },
           ]
         },

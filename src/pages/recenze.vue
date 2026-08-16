@@ -113,6 +113,16 @@ export default {
           videoLink: 'https://www.youtube.com/watch?v=goLBN6TgJ3I&t',
         },
         {
+          title: 'Outdoorový vařič Warg Flametower',
+          latinTitle: '',
+          description: '',
+          basicInformation: 'Kompaktní varný systém Warg Flametower představuje efektivní a cenově dostupné řešení pro každého, kdo hledá rychlý způsob, jak si v přírodě uvařit vodu na kávu, čaj nebo dehydrované jídlo. S celkovou hmotností okolo 600 gramů a kompletně sbalitelným designem přímo do vlastní nádoby jde o praktického společníka na trekking, víkendový bivak i delší pobyty v divočině. <br> Srdcem celého systému je hořák s integrovaným tepelným výměníkem na dně 1litrového eloxovaného hliníkového hrnce. Právě efektivní přenos tepla výrazně zkracuje dobu varu a šetří spotřebu plynu z kartuše i ve větrnějších podmínkách. Tělo hrnce je opatřeno neoprenovým obalem, který nejen chrání před popálením a usnadňuje manipulaci, ale zároveň pomáhá udržet obsah déle teplý. Nechybí ani sklopná rukojeť se spolehlivou aretací a transparentní poklice s pítkem pro snadnou kontrolu stavu vody.' +
+              ' <br> Uživatelský komfort zvyšuje vestavěné piezo zapalování, díky kterému odpadá nutnost neustále hledat zapalovač nebo zápalky. V balení navíc najdete i praktickou trojnožku pod plynovou kartuši zajišťující skvělou stabilitu na nerovném povrchu a adaptér, který umožňuje na hořák postavit i běžné outdoorové nádobí bez výměníku. <br> Hledáte-li spolehlivý, ucelený a uživatelsky přívětivý vařič, který vyniká skvělým poměrem ceny a výkonu, Warg Flametower je trefou do černého.',
+          fullInformation: [],
+          videoTitle: 'Konečně perfektní káva i vaření v přírodě?',
+          videoLink: 'https://www.youtube.com/watch?v=Ae4woNgT6JY&t',
+        },
+        {
           title: 'Bushcraft pila',
           latinTitle: '',
           description: '',
