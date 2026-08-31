@@ -65,6 +65,7 @@ import vysadek08Image from "@/assets/vysadky/08-sulovske.jpg";
 import vysadek09Image from "@/assets/vysadky/09-strazov.jpg";
 import vysadek10Image from "@/assets/vysadky/10-oslavka.jpg";
 import vysadek11Image from "@/assets/vysadky/11-luhacovice.jpg";
+import vysadek12Image from "@/assets/vysadky/12-tatry1.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -676,6 +677,69 @@ export default {
             href: 'https://www.youtube.com/watch?v=9zp-ScmExCM&t',
             title: 'Vandr nad Luhačovicemi: Od proměnlivého počasí 🌦️ až po luxusní Ekopark 🌳',
             description: 'Vyráželi jsme z Pozlovic po červené turistické značce směrem do kopců nad Luhačovicemi.☀️\n '
+          }
+          ],
+        },
+        {
+          id: 1,
+          image: vysadek12Image,
+          title: 'Adrenalinový den v Tatrách 🏔️',
+          fullTitle: 'Polévka na „Téryho chatě“, plesa a řetězy',
+          country: 'fi fi-sk',
+          location: 'Slovenská Republika / Vysoké Tatry',
+          description: 'Na náročný celodenní výsadek do samého srdce Vysokých Tater jsme vyrazili ze Starého Smokovce. Vidina monumentálních žulových štítů, průzračných ledovcových ples a adrenalinového přechodu obávaného sedla nás přivítala v plném horském proudu. Ikonická trasa přes dve skalní doliny prověřila naši fyzickou kondici i připravenost na strmá stoupání na řetězech. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Celým dnem nás provázelo střídavé horské počasí s polojasnou oblohou a příjemnou viditelností, i když se neobvykle často hlásil o slovo vítr. Zatímco dole v údolí se teplota pohybovala kolem příjemných 16 stupňů, nahoře na hřebenech a v sedle klesala až k 6 stupňům. Sem tam nás sice potkala drobná přeháňka a vítr byl na otevřených úsecích neúprosný, ale celkově nám Tatry ukázaly svou přívětivou tvář bez větších bouřkových komplikací.\n',
+
+          fullInformation: [
+            {
+              title: 'Vodopády, horské chaty a ledovcová plesa',
+              description: 'Tato trasa je doslova nabitá přírodními kaskádami, horskými chatami a průzračnými plesy. Hned na začátku nás okouzlila fascinující kaskáda Vodopádů Studeného potoka v záplavě vydatné vody. Klíčovou zastávkou byla Téryho chata ve výšce 2 015 m n. m., kde jsme doplnili síly vynikající česnečkou a nechybělo ani zasloužené pivo. Úchvatná byla také soustava Spišských a Starolesnianskych ples, jejichž hladiny lemovaly naši cestu skrz Velkou a Malou Studenou dolinu.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Pozemní lanovku a Hrebienok (1 285 m n. m.)</b>',
+                '<b>Dlhý vodopád Studeného potoka (1 191 m n. m.)</b>',
+                '<b>Veľký vodopád (1 229 m n. m.)</b>',
+                '<b>Malý vodopád (1 257 m n. m.)</b>',
+                '<b>Rainerovu chatu (1 301 m n. m.)</b>',
+                '<b>Obrovský vodopád (1 360 m n. m.)</b>',
+                '<b>Zamkovského chatu (1 475 m n. m.)</b>',
+                '<b>Téryho chatu (2 015 m n. m.) – zasloužené občerstvení</b>',
+                '<b>Spišská plesa (přes 2 000 m n. m.)</b>',
+                '<b>Priečne sedlo (2 352 m n. m.) – jištěné úseky</b>',
+                '<b>Prostredné Sivé pleso (2 013 m n. m.)</b>',
+                '<b>Starolesnianské pleso (1 988 m n. m.)</b>',
+                '<b>Vyšné Sesterské pleso (1 974 m n. m.)</b>',
+                '<b>Zbojnickou chatu (1 960 m n. m.)</b>',
+
+              ],
+              footer: 'Míst s dechberoucími výhledy je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a cesta na Téryho chatu',
+              description: 'Trasa s parametry 23 km a 1 533 metry převýšení nebyla vůbec zadarmo. Po úvodním rozehřátí podél pozemní lanovky na Hrebienok a kolem kaskád vodopádů následovala ostrá stíhací jízda po zelené značce nahoru přes Zamkovského chatu až na Téryho chatu. Fyzicky náročný výstup nás dokonale prověřil a zpotil, ale horká polévka a odpočinek v chladivém prostředí chaty nám vrátily potřebnou energii před hlavní výzvou dne.\n'
+            },
+            {
+              title: 'Adrenalin na řetězech',
+              description: 'Největší zkouška přišla při výstupu ze Spišských ples do Priečneho sedla (2 352 m n. m.). Zde už nastoupil pravý vysokohorský terén – lezení po kovových žebřících, stupech a řetězech. Odměnou v sedle nám byl monumentální kruhový výhled na obě strany hřebene. Závěrečný sestup ze sedla vedl po kamenitých chodnících kolem nehostinných horských ples až k Zbojnické chatě. Odtud jsme zahájili dlouhé klesání k Rázcestí nad Rainerovou chatou a po červené značce bezpečně dokončili celodenní 10hodinový okruh zpět ve Starém Smokovci.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Vysokohorský výsadek na Priečne sedlo přes Téryho a Zbojnickou chatu byl nabitý zážitky od prvního do posledního metru. Je to trasa pro zkušenější turisty, kteří se nebojí náročných profílů, expozice na řetězech a pořádné porce nastoupaných výškových metrů. Přestože vás prověří studený horský vítr a náročný kamenitý terén, odměna v podobě divokých vodopádů, horských ples a neopakovatelných výhledů z hřebenů Tater za každou kapku potu rozhodně stojí. Tato klasika zůstává jedním z nejkrásnějších a nejrozmanitějších okruhů, které lze ve Vysokých Tatrách absolvovat.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '23,08 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Náročná' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1533 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '2305 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '1029 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=AUW4Gz_8b4E&t',
+            title: 'Adrenalinový den v Tatrách:',
+            description: 'Polévka na „Téryho chatě“, plesa a řetězy\n '
           }
           ],
         },
