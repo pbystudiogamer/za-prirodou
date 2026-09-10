@@ -123,6 +123,16 @@ export default {
           videoLink: 'https://www.youtube.com/watch?v=Ae4woNgT6JY&t',
         },
         {
+          title: 'Přenosný kávovar Mestic MK-90',
+          latinTitle: '',
+          description: '',
+          basicInformation: 'Přenosný kávovar Mestic MK-90 představuje zajímavé řešení pro všechny milovníky kávy, kteří se ani na cestách nechtějí vzdát kvalitního espressa. Díky kompaktním rozměrům, integrované baterii a možnosti použití jak mleté kávy, tak kapslí, nabízí maximální svobodu při přípravě oblíbeného nápoje prakticky kdekoliv. Ať už vyrážíte na jednodenní výlet, víkendový trek, kempování nebo jen hledáte způsob, jak si vychutnat kávu s výhledem na vrcholu skály, MK-90 se snadno stane součástí vaší výbavy. <br> Základem zařízení je výkonné 19barové čerpadlo, které dokáže připravit espresso s bohatou cremou podobně jako klasické domácí kávovary. Vestavěná lithium-iontová baterie o kapacitě 7500 mAh umožňuje nejen samotnou přípravu kávy, ale také ohřev vody bez nutnosti připojení k elektrické síti. Díky tomu odpadá potřeba vozit další vybavení navíc a vy si můžete připravit čerstvé espresso téměř kdekoliv. Nádržka o objemu 80 ml je ideální pro jednu porci silné kávy a celé zařízení je vyrobeno z kombinace odolného ABS plastu a nerezové oceli.' +
+              ' <br> Velkou předností je jednoduché ovládání a vysoká univerzálnost. Kávovar podporuje přípravu kávy z mletých zrn i z kapslí, takže si každý může zvolit variantu, která mu nejvíce vyhovuje. Samotná příprava je rychlá a intuitivní, což oceníte zejména během výletů, kdy nechcete ztrácet čas složitým chystáním vybavení. Díky štíhlému provedení se navíc bez problémů vejde do batohu a nezabírá zbytečně místo. <br> Pokud hledáte spolehlivého společníka na cesty, který vám umožní vychutnat si kvalitní espresso i daleko od civilizace, Mestic MK-90 rozhodně stojí za pozornost. Kombinace přenosnosti, jednoduchého použití a schopnosti připravit kávu bez přístupu k elektřině z něj dělá praktický doplněk pro každého outdoorového nadšence. A upřímně, dát si čerstvě namleté espresso s výhledem na vrcholu hory nebo skály má zcela jiné kouzlo než doma u kuchyňského stolu. ☕🌲',
+          fullInformation: [],
+          videoTitle: 'Jen tak káva na výhledu na skále?',
+          videoLink: 'https://www.instagram.com/reel/DdGctaXKI6T/?stkn=aG4yaWM0MThoYTNw',
+        },
+        {
           title: 'Bushcraft pila',
           latinTitle: '',
           description: '',
