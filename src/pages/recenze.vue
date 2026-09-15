@@ -130,7 +130,7 @@ export default {
               ' <br> Velkou předností je jednoduché ovládání a vysoká univerzálnost. Kávovar podporuje přípravu kávy z mletých zrn i z kapslí, takže si každý může zvolit variantu, která mu nejvíce vyhovuje. Samotná příprava je rychlá a intuitivní, což oceníte zejména během výletů, kdy nechcete ztrácet čas složitým chystáním vybavení. Díky štíhlému provedení se navíc bez problémů vejde do batohu a nezabírá zbytečně místo. <br> Pokud hledáte spolehlivého společníka na cesty, který vám umožní vychutnat si kvalitní espresso i daleko od civilizace, Mestic MK-90 rozhodně stojí za pozornost. Kombinace přenosnosti, jednoduchého použití a schopnosti připravit kávu bez přístupu k elektřině z něj dělá praktický doplněk pro každého outdoorového nadšence. A upřímně, dát si čerstvě namleté espresso s výhledem na vrcholu hory nebo skály má zcela jiné kouzlo než doma u kuchyňského stolu. ☕🌲',
           fullInformation: [],
           videoTitle: 'Jen tak káva na výhledu na skále?',
-          videoLink: 'https://www.instagram.com/reel/DdGctaXKI6T/?stkn=aG4yaWM0MThoYTNw',
+          videoLink: 'https://www.youtube.com/shorts/5HaLw5-XYQc',
         },
         {
           title: 'Bushcraft pila',
