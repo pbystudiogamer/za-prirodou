@@ -66,6 +66,7 @@ import vysadek09Image from "@/assets/vysadky/09-strazov.jpg";
 import vysadek10Image from "@/assets/vysadky/10-oslavka.jpg";
 import vysadek11Image from "@/assets/vysadky/11-luhacovice.jpg";
 import vysadek12Image from "@/assets/vysadky/12-tatry1.jpg";
+import vysadek13Image from "@/assets/vysadky/13-tatry2.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -740,6 +741,63 @@ export default {
             href: 'https://www.youtube.com/watch?v=AUW4Gz_8b4E&t',
             title: 'Adrenalinový den v Tatrách:',
             description: 'Polévka na „Téryho chatě“, plesa a řetězy\n '
+          }
+          ],
+        },
+        {
+          id: 1,
+          image: vysadek13Image,
+          title: 'Ikonický vrchol Tater - Kriváň 🏔️',
+          fullTitle: 'Přípitek na vrcholu',
+          country: 'fi fi-sk',
+          location: 'Slovenská Republika / Vysoké Tatry',
+          description: 'Na celodenní vysokohorský výsadek k jednoznačnému symbolu Vysopkých Tater jsme vyrazili kousek od rozcestí Jambrichovo. Vidina dobytí jednoho z nejvyšších a nejvýraznějších vrcholů Vysokých Tater nás přivítala v plném horském proudu. Ikonická trasa přes mírně zarostlé chodníky, horská plesa a strmý kamenitý žlab prověřila naši fyzickou kondici i odhodlání při závěrečném stoupání. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Tento den nabídnul vůbec nejteplejší počasí z celého týdne. Teploty v údolí šplhaly vysoko nad průměr a provázelo nás polojasno, což si vyžádalo poctivý pitný režim. Na hřebenech a samotném vrcholu Kriváně se k tomu přidal poměrně silný a chladný vítr. Předpovídané bouřky s krupobitím se nám naštěstí vyhnuly, a tak jsme celý náročný výstup zvládli za sucha a bez komplikací.\n',
+
+          fullInformation: [
+            {
+              title: 'Prameny, horská plesa a symbolický vrchol',
+              description: 'Tato trasa nabízí nádhernou kombinaci klidných lesních pasáží i nehostinného vysokohorského terénu. Hned v úvodu nás okouzlilo tiché Nižné Rakytovské pliesko, odkud se nám naskytl první dechberoucí pohled na náš cílový vrchol. Cestou jsme překračovali dřevěné lávky přes vznikající řeku Biely Váh a prošli jsme i kousek od známého Jamského plesa. Absolutním vyvrcholením byl pak samotný vrchol Kriváně s cyrilometodějským křížem.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Naučný chodník Rakytovské plieska</b>',
+                '<b>Nižné Rakytovské pliesko (1 311 m n. m.)</b>',
+                '<b>Lávky přes Vznik rieky Biely Váh</b>',
+                '<b>Jamské pleso (1 448 m n. m.)</b>',
+                '<b>Rázcestie v Krivánskom žľabe (2 120 m n. m.)</b>',
+                '<b>Malý Kriváň (2 334 m n. m.)</b>',
+                '<b>Kriváň (2 494 m n. m.) – vrcholový přípitek a oběd</b>',
+                '<b>Rázcestie Jambrichovo (1 215 m n. m.)</b>',
+
+              ],
+              footer: 'Míst s dechberoucími výhledy je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a stoupání Krivánským žlabem',
+              description: 'Trasa s parametry 17,5 km a 1 385 metry převýšení nebyla ani v nejmenším zadarmo. Po úvodním průchodu po zarostlých chodnících a přeinstalovaných lávkách nastoupilo ostré a nekonečné stoupání po kamenných blokách přes Krivánsky žľab na Malý Kriváň. Závěrečný úsek na hlavní vrchol vyžadoval soustředění a jistý krok v suťovém terénu, ale zasloužený odpočinek na samotném vrcholu za to stál.\n'
+            },
+            {
+              title: 'Přípitek na vrcholu a sestup k prameni Váhu',
+              description: 'Na samotném vrcholku ve výšce 2 494 m n. m. jsme si s Nikčou symbolicky připili na zdolání nejvyššího bodu našeho týdenního putování po Tatrách a užili si oběd složený z poctivých slovenských surovin. Přestože byl vrchol poměrně hojně navštívený dalšími turisty, atmosféra byla skvělá. Sestup vedl stejnou trasou až k rozcestí Jambrichovo, kde jsme odbočili po zelené značce a kolem lávek u prameniště Bieleho Váhu bezpečně po 8 hodinách dokončili celý okruh.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Výstup na Kriváň je absolutní povinností pro každého milovníka vysokohorské turistiky. Nabízí neopakovatelné výhledy na Liptov i okolní štíty Tater, krásná zastavení u horských ples a nefalšovanou horskou výzvu. Přestože závěrečný sestup dá tradičně zabrat kolenům a nohám, pocit ze zdolání tohoto ikonického vrcholu veškerou únavu okamžitě vymaže.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '17,59 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Náročná' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1385 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '2495 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '1227 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=nYJFi0Wr2-4',
+            title: 'Výstup na Kriváň (2 494 m)',
+            description: '🥂 Přípitek na nejvyšším vrcholu týdne! \n '
           }
           ],
         },
