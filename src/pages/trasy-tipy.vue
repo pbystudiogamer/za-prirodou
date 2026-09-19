@@ -798,8 +798,8 @@ export default {
             href: 'https://www.youtube.com/watch?v=nYJFi0Wr2-4',
             title: 'Výstup na Kriváň (2 494 m)',
             description: '🥂 Přípitek na nejvyšším vrcholu týdne! \n '
-          }
-          ],
+          },],
+          mapyLink: 'https://mapy.com/s/juhugoranu',
         },
       ]
     }

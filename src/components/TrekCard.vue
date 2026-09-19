@@ -88,6 +88,10 @@
             <VideoCard :href="v.href" :title="v.title" :description="v.description" />
           </v-col>
         </v-row>
+        <section v-if="mapyLink" class="map-section">
+          <h4 class="map-section__title">Mapa trasy</h4>
+          <mapy-card :href="mapyLink" class="map-section__card" />
+        </section>
       </div>
 
       <!-- BOTTOM BAR (sticky) -->
@@ -101,10 +105,11 @@
 
 <script>
 import VideoCard from "@/components/VideoCard.vue";
+import MapyCard from "@/components/MapyCard.vue";
 
 export default {
   name: 'TrekCard',
-  components: {VideoCard},
+  components: {MapyCard, VideoCard},
   props: {
     image: {
       type: String,
@@ -138,6 +143,7 @@ export default {
     videoSectionTitle: { type: String, default: '' },
     fullInformation: { type: Object, default: '' },
     videoLinks: { type: Array, default: () => [] },
+    mapyLink: { type: String, default: ''},
   },
   data() {
     return {
@@ -283,5 +289,23 @@ export default {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 4px;
+}
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;          
+  margin-top: 48px;  
+  margin-bottom: 32px;
+}
+
+.map-section__title {
+  margin: 0;
+  text-align: center;
+}
+
+.map-section__card {
+  width: 100%;
+  max-width: 600px;
 }
 </style>
