@@ -743,6 +743,7 @@ export default {
             description: 'Polévka na „Téryho chatě“, plesa a řetězy\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/cucahumaho',
         },
         {
           id: 1,
