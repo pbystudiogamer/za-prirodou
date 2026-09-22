@@ -454,6 +454,7 @@ export default {
             description: 'Slunce, skály a krásné trasy — ideální jarní dobrodružství ve Žďárských vrších.\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/luludahota',
         },
         {
           id: 1,
@@ -566,6 +567,7 @@ export default {
             description: 'Přes Sokolie a vodopády až na vrchol\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/karohaguka',
         },
         {
           id: 1,
@@ -680,6 +682,7 @@ export default {
             description: 'Vyráželi jsme z Pozlovic po červené turistické značce směrem do kopců nad Luhačovicemi.☀️\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/hevalacuvo',
         },
         {
           id: 1,
