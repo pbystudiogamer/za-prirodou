@@ -67,6 +67,7 @@ import vysadek10Image from "@/assets/vysadky/10-oslavka.jpg";
 import vysadek11Image from "@/assets/vysadky/11-luhacovice.jpg";
 import vysadek12Image from "@/assets/vysadky/12-tatry1.jpg";
 import vysadek13Image from "@/assets/vysadky/13-tatry2.jpg";
+import vysadek14Image from "@/assets/vysadky/14-houbyjesenik.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -804,6 +805,64 @@ export default {
             description: '🥂 Přípitek na nejvyšším vrcholu týdne! \n '
           },],
           mapyLink: 'https://mapy.com/s/juhugoranu',
+        },
+        {
+          id: 1,
+          image: vysadek14Image,
+          title: 'Ticho, skály a plné kapsy hub 🌲',
+          fullTitle: 'Podzimní výsadek do Jeseníků 🍁',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Hrubý Jeseník',
+          description: 'Na dvodenní jesenický výsadek po méně známé a lidmi nezaplněné hřebenovce jsme vyrazili přímo z Vrbna pod Pradědem. Vidina objevování skalnatých vrcholů, sběru hub i bivaku na jednom z nejhezčích výhledových míst nás přivítala hned na startu prvním pořádně ostrým stoupáním. Ikonická trasa plná kamenných útvarů, rozlehlých borůvčat a lesních chodníků prověřila naši fyzickou kondici i houbařské štěstí. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Akce nás přivítala příjemným podzimním počasím s polojasnou oblohou a teplotami kolem 17 °C, které v noci klesly k hranici 10 °C. Až na pár drobných výjimek panovalo večer i během noci absolutní bezvětří a dokonalé horské ticho. Přestože probíhala jelení říje, noc pod hvězdami proběhla v úplném klidu, ale bohužel bez jediného zatroubení.\n',
+
+          fullInformation: [
+            {
+              title: 'Skály, houbaření a výhled na Praděd',
+              description: 'Tato trasa nabízí nádhernou kombinaci divokých skalních hřebenů i tichých lesních zákoutí. Hned po úvodním výstupu na Zámeckou horu s malou dřevěnou rozhlednou nás cesta vedla dál k Pytláckým kamenům. Tady se osvědčila houbařská taktika rozdělit se – Nikča po chvíli dorazila s váčkem plným hub a dramatickou historkou z terénu. Následoval skalnatý Žárový vrch s výhledem na Praděd a bivak na nedaleké Lyře. Druhý den nás čekala snídaně na skalní vyhlídce a objevování Rolandova kamene i skalního města.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Zámecká hora (854 m n. m.) – malá rozhledna na hezkém místě</b>',
+                '<b>Pytlácké kameny (1 027 m n. m.)</b>',
+                '<b>Žárový vrch (1 101 m n. m.) – monumentální šutr se super výhledem na Praděd</b>',
+                '<b>Pytlácká skála (1 008 m n. m.)</b>',
+                '<b>Sedlová chata (950 m n. m.) & Studánka U Sedlové boudy (953 m n. m.)</b>',
+                '<b>Vrchol Lyra (1 092 m n. m.) – nocleh v hamakách a ranní snídaně na vyhlídce</b>',
+                '<b>Rolandův kámen (937 m n. m.)</b>',
+                '<b>Přístřešek Franze Ludwiga (782 m n. m.) – zápis do návštěvní knihy</b>',
+                '<b>Ludvíkovské skalní město (670 m n. m.)</b>',
+
+              ],
+              footer: 'Míst s dechberoucími výhledy je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a hřebenové stoupání',
+              description: 'Dvoudenní okruh s parametry 22 km a 1 068 metry převýšení nedal nic zadarmo. Hned na začátku nás prověřil prudký stup na Zámeckou horu a po překonání Pytláckých kamenů nás čekal krátký, ale velmi intenzivní výšvih z odchytové Sedlové chaty k vrcholu Lyra. Hledání ideálního místa na bivak i navigování po neznámých skalních odbočkách vyžadovalo soustředění, ale odměna v podobě večerního klidu za to rozhodně stála.\n'
+            },
+            {
+              title: 'Smaženice u hamak a vánočka na vyhlídce',
+              description: 'Po úspěšném pověšení hamak kousek pod vrcholem Lyra jsme z bohatého houbařského úlovku uvařili výbornou večerní smaženici. Absolutním vyvrcholením akce pak byla ranní snídaně na skalní vyhlídce – čerstvé kafe, vánočka s máslem a borůvky nasbírané přímo na místě. Pohodová atmosféra nás prostě provázela celým víkendem.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Tento zářijový výsadek z Vrbna pod Pradědem je skvělou volbou pro každého, kdo hledá klidnější tvář Jeseníků bez masového turismu. Nabízí neopakovatelné výhledy, skalní zákoutí i bohaté borůvkové a houbařské úlovky. Přestože tělo po 22 kilometrech a tisíci nastoupaných metrech cítí únavu, atmosféra podzimního lesa a nocleh pod širým nebem ji okamžitě vynahradí.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '22 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Střední' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1068 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '1105 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '565 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://www.youtube.com/watch?v=SlIy1uj7sEM',
+            title: 'Smaženice na hřebeni Jeseníků!',
+            description: 'Vandr plný skal a zážitků! 🧗‍♂️ \n '
+          },],
+          mapyLink: 'https://mapy.com/s/gagabuhoba',
         },
       ]
     }
