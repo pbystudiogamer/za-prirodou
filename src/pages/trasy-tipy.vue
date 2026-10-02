@@ -284,7 +284,8 @@ export default {
             title: 'Putování Jeseníky',
             description: 'Dvoudenní zimní čundr kolem Medvědího vrchu nás provedl zříceninou, skalami, vlčími stopami a hustou mlhou, která zakryla všechny výhledy. Přespali jsme u Janových skal, kde Nikča pod převisem uvařila své legendární curry, a cestou jsme objevili i tajnou vyhlídku u Pytláka – i když opět bez výhledu. Přes 16 kilometrů v dešti, sněhu a tichém sněžení nabídlo syrové, ale krásné zimní dobrodružství ;-) '
           }
-         ],                              
+         ],
+          mapyLink: 'https://mapy.com/s/kelanunolo',
         },
         {
           id: 1,
@@ -341,6 +342,7 @@ export default {
             description: 'Vyrazili jsme na víkendový přechod Malých Karpat – od Čertova žlebu přes Molpír, Smolenice a Havraní skálu až po Záruby a Ostrý Kameň. Čekaly nás strmé výstupy, nádherné vyhlídky i klidný jarní les. Dva dny v divočině plné dobrodružství a atmosféry, kterou stojí za to zažít ;-) '
           }
          ],
+          mapyLink: 'https://mapy.com/s/farorokepu',
         },
         {
           id: 1,
@@ -512,6 +514,7 @@ export default {
             description: 'Vydali jsme se prozkoumat krásy slovenských Súľovských skal a byl to jeden z nejlepších výletů!\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/hupegafaho',
         },
         {
           id: 1,
@@ -627,6 +630,7 @@ export default {
             description: 'Závěrem přes Údolí velké žízně\n '
           }
           ],
+          mapyLink: 'https://mapy.com/s/harovapuda',
         },
         {
           id: 1,
