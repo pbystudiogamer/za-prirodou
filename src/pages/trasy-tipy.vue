@@ -181,6 +181,7 @@ export default {
               description: 'Druhý den v Hostýnských vrších - ráno jsme odstartovali sladkou snídaní, která nám dodala energii na cestu zpět. Prošli jsme nádherným úsekem zvaným Skaliska na vrchu Sochová, kde nás okouzlilo kamenné schodiště. Den plný pohody, přírody a krásných výhledů.'
             }
           ],
+          mapyLink: 'https://mapy.com/s/perafocebe',
         },
         {
           id: 1,
@@ -226,6 +227,7 @@ export default {
               description: 'Dva dny na vrcholcích Jeseníků – Vozka, Keprník a Kamenné okno nás přivítaly dokonalým počasím. V údolích se rozprostírala mlha, zatímco my jsme kráčeli nad její hladinou a objevovali kouzlo horských panoramat. Víkend plný krásných výhledů, klidu a nezapomenutelných okamžiků.'
             }
           ],
+          mapyLink: 'https://mapy.com/s/daferehevo',
         },
         {
           id: 1,
