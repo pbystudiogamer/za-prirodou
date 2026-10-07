@@ -68,6 +68,7 @@ import vysadek11Image from "@/assets/vysadky/11-luhacovice.jpg";
 import vysadek12Image from "@/assets/vysadky/12-tatry1.jpg";
 import vysadek13Image from "@/assets/vysadky/13-tatry2.jpg";
 import vysadek14Image from "@/assets/vysadky/14-houbyjesenik.jpg";
+import vysadek15Image from "@/assets/vysadky/15-padesátka2026.jpg";
 import HelpDialog from "@/components/HelpDialog.vue";
 import HerbCard from "@/components/HerbCard.vue";
 
@@ -869,6 +870,64 @@ export default {
             description: 'Vandr plný skal a zážitků! 🧗‍♂️ \n '
           },],
           mapyLink: 'https://mapy.com/s/gagabuhoba',
+        },
+        {
+          id: 1,
+          image: vysadek15Image,
+          title: 'Podzimní výšlap Moravským krasem 💪',
+          fullTitle: '50 km, jeskyně, houbařský úlovek a lesní bar 🍁',
+          country: 'fi fi-cz',
+          location: 'Česká Republika / Jižní Morava',
+          description: 'Na celodenní podzimní pochod napříč zvlněnou a jeskyněmi protkanou krajinou jsme vyrazili z Adamova. Vidina pokoření naší každoroční padesátikilometrové výzvy skrz CHKO Moravský kras nás přivítala v plné síle a s obrovským nadšením. Ikonická trasa přes malebné louky, zalesněná údolí, náročné stoupání i volně přístupné jeskyně prověřila naši fyzickou kondici i odhodlání při závěrečném nočním dojezdu. \n',
+          basicInformation: '<strong>Počasí na výsadku</strong> <br>' +
+              'Tento den nabídnul doslova pohádkové podzimní podmínky. Ráno nás sice přivítalo chladnými 6 °C, ale v průběhu dne se teplota vyšplhala až na úctyhodných 23 °C, což si na sluncem zalitých polních cestách vyžádalo poctivý pitný režim. Ke večeru pak teplota příjemně klesla ke 13 °C. Celý náročný přechod jsme tak zvládli za sucha, bez kapky deště a v kulisách nádherně zbarveného podzimního lesa.\n',
+
+          fullInformation: [
+            {
+              title: 'Jeskyně, architektura a pravý houbařský rajón',
+              description: 'Tato trasa nabízí nádhernou kombinaci hlubokých krasových kaňonů, historických památek i ikonických vyhlídek. Hned v úvodu nás potěšil pohled do Arboreta Řícmanice a odpočinek na parkové Konůpkově louce, kterou jsme oslavili první desítku v nohách. Cestou jsme obdivovali barokní Poutní kostel ve Křtinách, nejvyšší stavbu na Moravě – vysílač Kojál – i historický Větrný mlýn v Rudici. Absolutním vyvrcholením byl pak závěrečný průchod tajemnými jeskyněmi za stmívání a zastávka v komunitním lesním baru.\n' +
+                  '<br><br><strong>Po cestě jsme míjeli:</strong> <br>',
+              points: [
+                '<b>Arboretum Řícmanice (349 m n. m.)</b>',
+                '<b>Konůpkova louka (355 m n. m.)</b>',
+                '<b>Farské pole (450 m n. m.)</b>',
+                '<b>Poutní kostel Jména Panny Marie a Výletní cukrárna ve Křtinách (411 m n. m.)</b>',
+                '<b>Louky u Podomského potoka (490 m n. m.) – houbařský úlovek dne</b>',
+                '<b>Vysílač Brno - Kojál (600 m n. m.) – polovina trasy a nejvyšší stavba Moravy</b>',
+                '<b>Větrný mlýn Rudice (514 m n. m.) & Studánka Klostermannova (527 m n. m.)</b>',
+                '<b>Jeskyně Kostelík (329 m n. m.), Býčí skála (322 m n. m.) a Jeskyně Jáchymka (316 m n. m.)</b>',
+                '<b>Lesní bar U poustevníka Jáchyma (291 m n. m.) & Stará huť u Adamova (285 m n. m.)</b>',
+
+              ],
+              footer: 'Míst s neopakovatelnou atmosférou a přírodními úkazy je na tomto okruhu nespočet.'
+            },
+            {
+              title: 'Výzvy na trase a křtinské stoupání',
+              description: 'Trasa s parametry 51,75 km a 1 096 metry převýšení nebyla ani v nejmenším zadarmo. Jednoznačně nejnáročnějším úsekem byl kopec ve Křtinách přímo za Výletní cukrárnou, kde jsme po červené značce museli na pouhém jednom kilometru překonat 100 výškových metrů. Další prověrkou byla navigace v úseku za Habrůvkou, kde se nám však díky minmutí odbočky podařilo najít skvělou a malebnou zkratku panenskou přírodou.\n'
+            },
+            {
+              title: 'Úlovek dne a chmelený cider za odměnu',
+              description: 'Cesta přes Louky u Podomského potoka a přilehlé lesy se proměnila v houbařské eldorádo. Nikčin houbařský radar jel na plný výkon a odměnou byl ukázkový pravák – největší úlovek dne. V závěru trasy, po průchodu impozantními jeskyněmi Kostelík a Jáchymka, jsme si v Lesním baru U poustevníka Jáchyma dopřáli zaslouženou odměnu v podobě speciálního chmeleného cideru. Závěrečná stíhací jízda podél Křtinského potoka za tmy nás pak bezpečně přivedla zpět do cesty v Adamově.'
+            },
+            {
+              title: 'Shrnutí',
+              description: 'Přechod Moravského krasu v délce přes 50 km je poctivá prověrka vytrvalosti, která ale nabízí to nejlepší z místní přírody. Od sladké zastávky v cukrárně přes monumentální Kojál až po romantické průchozí jeskyně a lesní bar. Přestože závěrečné kilometry dají nohám a kloubům pořádně zabrat, skvělá atmosféra a pocit ze zdolání této podzimní výzvy veškerou únavu okamžitě vymažou.'
+            }
+          ],
+          chips: [
+            { icon: 'mdi-walk', type: 'vzdalenost', text: '51,7 km' },
+            { icon: 'mdi-arm-flex', type: 'obtiznost', text: 'Náročná' },
+            { icon: 'mdi-arrow-top-right', type: 'nastoupano', text: '1096 m' },
+            { icon: 'mdi-elevation-rise', type: 'nejvyssi-bod', text: '600 m n.m.' },
+            { icon: 'mdi-elevation-decline', type: 'nejnizsi-bod', text: '239 m n.m.' },
+          ],
+          videoSectionTitle: 'Video z výsadku',
+          videoLinks: [ {
+            href: 'https://youtu.be/V1fimH-vmJI',
+            title: 'Padesátka 2026 🥾',
+            description: 'Zkouška naší vytrvalosti a odolnosti 💪️ \n '
+          },],
+          mapyLink: 'https://mapy.com/s/mogupetulo',
         },
       ]
     }
