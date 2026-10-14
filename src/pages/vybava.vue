@@ -347,6 +347,12 @@ export default {
               description: '',
               href: 'https://www.tkqlhce.com/click-101524204-12684494?url=https%3A%2F%2Fwww.4camping.cz%2Fp%2Fponozky-zulu-merino-allseason%2F%2339-42-zelena',
             },
+            {
+              id: 14,
+              title: 'Helikon-Tex Alpha Tactical Fleece',
+              description: '',
+              href: 'https://go.dognet.com/?chid=ZbbXaOiD&url=https%3A%2F%2Fwww.bushcraftshop.cz%2Fbunda-helikon-tex-alpha-tactical-fleece-olive-green%2F',
+            },
           ]
         }
       ]
