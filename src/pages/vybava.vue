@@ -149,7 +149,7 @@ export default {
               id: 3,
               title: 'Nůž Ruike P122',
               description: '',
-              href: 'https://bit.ly/3StbdcZ',
+              href: 'https://go.dognet.com/?chid=ZbbXaOiD&url=https%3A%2F%2Fwww.bushcraftshop.cz%2Fnuz-ruike-p122-cerny%2F',
             },
             {
               id: 4,
